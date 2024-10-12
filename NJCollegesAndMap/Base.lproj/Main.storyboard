@@ -19,7 +19,7 @@
                         <viewLayoutGuide key="safeArea" id="shN-Lp-e7u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="LZb-ut-4mR"/>
+                    <tabBarItem key="tabBarItem" title="Summary" image="info.circle.fill" catalog="system" id="LZb-ut-4mR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G8g-me-LCc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,7 +63,7 @@
                             <constraint firstItem="UDr-i2-Q4Y" firstAttribute="trailing" secondItem="iyb-vG-RBc" secondAttribute="trailing" id="swS-mN-19I"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="i5j-ts-mwM"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="i5j-ts-mwM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7F-ic-WYH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +111,7 @@
                             <outlet property="delegate" destination="MRs-XO-FsS" id="8Q8-hJ-xhz"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="7Cc-fJ-vyd"/>
+                    <tabBarItem key="tabBarItem" title="List" image="list.bullet.rectangle" catalog="system" id="7Cc-fJ-vyd"/>
                     <connections>
                         <segue destination="pti-1R-a5e" kind="show" identifier="detailSegue" id="qLE-Ur-4ZU"/>
                     </connections>
@@ -122,6 +122,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="info.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
+        <image name="map" catalog="system" width="128" height="112"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
