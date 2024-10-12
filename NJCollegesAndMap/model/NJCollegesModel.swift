@@ -74,4 +74,38 @@ class NJCollegesModel {
         
     }
     
+    func getCollegeNames() -> [String]{
+        var collegeNames: [String] = []
+        for college in njColleges {
+            collegeNames.append(college.name)
+        }
+        return collegeNames
+    }
+    
+    // DOESNT WORK YET
+    func getImage(collegeName: String) -> String {
+        
+        var asset: String
+        let searchString = collegeName.lowercased().replacingOccurrences(of: " ", with: "_")
+        
+        let collegeNames = getCollegeNames()
+
+        for assetName in collegeNames {
+            
+            if (searchString.contains(assetName)) {
+                
+                // found
+                asset = assetName
+                return asset
+                
+            }
+            
+        }
+        
+        // not found
+        asset = "generic"
+        return asset
+
+    }
+    
 }
