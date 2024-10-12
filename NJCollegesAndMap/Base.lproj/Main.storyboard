@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MRs-XO-FsS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rqS-zM-tSg">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
@@ -16,14 +16,26 @@
                     <view key="view" contentMode="scaleToFill" id="PbK-tA-in3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TEST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zag-Ix-HUr" userLabel="TestText">
+                                <rect key="frame" x="108" y="118" width="176" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="shN-Lp-e7u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Summary" image="info.circle.fill" catalog="system" id="LZb-ut-4mR"/>
+                    <connections>
+                        <outlet property="testText" destination="zag-Ix-HUr" id="O0e-Jw-wc0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G8g-me-LCc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-37" y="-583"/>
+            <point key="canvasLocation" x="-37.404580152671755" y="-583.09859154929575"/>
         </scene>
         <!--College Details-->
         <scene sceneID="Bvb-hM-qLX">
@@ -62,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyb-vG-RBc">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="803"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                         </subviews>
@@ -71,7 +83,7 @@
                         <constraints>
                             <constraint firstItem="iyb-vG-RBc" firstAttribute="leading" secondItem="UDr-i2-Q4Y" secondAttribute="leading" id="FKz-7j-L1h"/>
                             <constraint firstItem="UDr-i2-Q4Y" firstAttribute="top" secondItem="iyb-vG-RBc" secondAttribute="top" constant="59" id="JGX-zz-mQK"/>
-                            <constraint firstItem="iyb-vG-RBc" firstAttribute="bottom" secondItem="UDr-i2-Q4Y" secondAttribute="bottom" constant="34" id="h2w-dj-LJv"/>
+                            <constraint firstItem="UDr-i2-Q4Y" firstAttribute="bottom" secondItem="iyb-vG-RBc" secondAttribute="bottom" id="aAC-3T-UrG"/>
                             <constraint firstItem="UDr-i2-Q4Y" firstAttribute="trailing" secondItem="iyb-vG-RBc" secondAttribute="trailing" id="swS-mN-19I"/>
                         </constraints>
                     </view>
@@ -81,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="-37.404580152671755" y="-1354.2253521126761"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Navigation-->
         <scene sceneID="xFg-bh-Mbm">
             <objects>
-                <tabBarController id="rqS-zM-tSg" sceneMemberID="viewController">
+                <tabBarController title="Navigation" id="rqS-zM-tSg" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U9L-sg-Jbo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
