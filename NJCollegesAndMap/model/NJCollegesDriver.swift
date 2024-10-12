@@ -33,6 +33,10 @@ func testModel() {
         print("County: \(monmouthUniversity.county)")
         print("Coordinates: \(monmouthUniversity.coordinates)")
         
+        let summary = collegesModel.getSummaryValues()
+        
+        print("\nSummary: \ntotal: \(summary[0]) \nnorth: \(summary[1]) \ncentral: \(summary[2]) \nsouth: \(summary[3])")
+        
     }
     
 }
