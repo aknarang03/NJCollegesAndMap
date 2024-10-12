@@ -41,7 +41,8 @@ class CollegesListViewController: UITableViewController {
         
         cell.collegeName.text = colleges[indexPath.row].name
 
-        // LATER: set image based on search
+        let assetName = collegesModel.getImage(collegeName: colleges[indexPath.row].name)
+        cell.collegeImage.image = UIImage(named:assetName)
         
         return cell
         

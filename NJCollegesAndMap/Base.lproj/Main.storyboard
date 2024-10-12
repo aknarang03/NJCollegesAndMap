@@ -132,9 +132,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graduationcap.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="E7a-br-4uG" userLabel="CollegeImage">
-                                                    <rect key="frame" x="0.0" y="35" width="80" height="22.333333333333329"/>
+                                                    <rect key="frame" x="0.0" y="15.333333333333332" width="80" height="61.333333333333343"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="Qmq-y2-rnM"/>
+                                                        <constraint firstAttribute="width" secondItem="E7a-br-4uG" secondAttribute="height" multiplier="185:137" id="fwP-6t-EZm"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TW-hK-jws" userLabel="CollegeName">
