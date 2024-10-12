@@ -8,22 +8,32 @@
 import UIKit
 
 class CollegeDetailViewController: UIViewController {
+    
+    var showCollegeId: Int?
+    var selectedCollege: College?
+    let collegesModel = NJCollegesModel.sharedInstance
 
+    @IBOutlet weak var collegeName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        if let collegeId = showCollegeId {
+            
+            selectedCollege = collegesModel.getCollege(findId: collegeId)
+            
+            if (selectedCollege != nil) {
+                self.title = selectedCollege?.name
+                collegeName.text = selectedCollege?.name
+            }
+            
+        }
+        
     }
-    */
 
 }

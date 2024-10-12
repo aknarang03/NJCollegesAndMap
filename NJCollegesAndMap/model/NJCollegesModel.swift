@@ -28,6 +28,14 @@ class NJCollegesModel {
         return self.njColleges
     }
     
+    func getCollege(findId: Int) -> College? {
+        if let college = njColleges.first(where: {$0.id == findId}) {
+            return college
+        } else {
+            return nil
+        }
+    }
+    
     func readCollegesData() {
         
         if let filename = Bundle.main.path(forResource: "NJColleges", ofType: "json") {
