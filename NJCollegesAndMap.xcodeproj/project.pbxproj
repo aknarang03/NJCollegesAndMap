@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		408449DA2CBAEFA7007208EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408449BB2CBAEFA5007208EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408449C22CBAEFA5007208EF;
+			remoteInfo = NJCollegesAndMap;
+		};
+		408449E42CBAEFA7007208EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408449BB2CBAEFA5007208EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408449C22CBAEFA5007208EF;
+			remoteInfo = NJCollegesAndMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		408449C32CBAEFA5007208EF /* NJCollegesAndMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJCollegesAndMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408449D92CBAEFA7007208EF /* NJCollegesAndMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJCollegesAndMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408449E32CBAEFA7007208EF /* NJCollegesAndMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJCollegesAndMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		408449EB2CBAEFA7007208EF /* Exceptions for "NJCollegesAndMap" folder in "NJCollegesAndMap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 408449C22CBAEFA5007208EF /* NJCollegesAndMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		408449C52CBAEFA5007208EF /* NJCollegesAndMap */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				408449EB2CBAEFA7007208EF /* Exceptions for "NJCollegesAndMap" folder in "NJCollegesAndMap" target */,
+			);
+			path = NJCollegesAndMap;
+			sourceTree = "<group>";
+		};
+		408449DC2CBAEFA7007208EF /* NJCollegesAndMapTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NJCollegesAndMapTests;
+			sourceTree = "<group>";
+		};
+		408449E62CBAEFA7007208EF /* NJCollegesAndMapUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NJCollegesAndMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408449C02CBAEFA5007208EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408449D62CBAEFA7007208EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408449E02CBAEFA7007208EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408449BA2CBAEFA5007208EF = {
+			isa = PBXGroup;
+			children = (
+				408449C52CBAEFA5007208EF /* NJCollegesAndMap */,
+				408449DC2CBAEFA7007208EF /* NJCollegesAndMapTests */,
+				408449E62CBAEFA7007208EF /* NJCollegesAndMapUITests */,
+				408449C42CBAEFA5007208EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408449C42CBAEFA5007208EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408449C32CBAEFA5007208EF /* NJCollegesAndMap.app */,
+				408449D92CBAEFA7007208EF /* NJCollegesAndMapTests.xctest */,
+				408449E32CBAEFA7007208EF /* NJCollegesAndMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408449C22CBAEFA5007208EF /* NJCollegesAndMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408449EC2CBAEFA7007208EF /* Build configuration list for PBXNativeTarget "NJCollegesAndMap" */;
+			buildPhases = (
+				408449BF2CBAEFA5007208EF /* Sources */,
+				408449C02CBAEFA5007208EF /* Frameworks */,
+				408449C12CBAEFA5007208EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				408449C52CBAEFA5007208EF /* NJCollegesAndMap */,
+			);
+			name = NJCollegesAndMap;
+			packageProductDependencies = (
+			);
+			productName = NJCollegesAndMap;
+			productReference = 408449C32CBAEFA5007208EF /* NJCollegesAndMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408449D82CBAEFA7007208EF /* NJCollegesAndMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408449F12CBAEFA7007208EF /* Build configuration list for PBXNativeTarget "NJCollegesAndMapTests" */;
+			buildPhases = (
+				408449D52CBAEFA7007208EF /* Sources */,
+				408449D62CBAEFA7007208EF /* Frameworks */,
+				408449D72CBAEFA7007208EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408449DB2CBAEFA7007208EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				408449DC2CBAEFA7007208EF /* NJCollegesAndMapTests */,
+			);
+			name = NJCollegesAndMapTests;
+			packageProductDependencies = (
+			);
+			productName = NJCollegesAndMapTests;
+			productReference = 408449D92CBAEFA7007208EF /* NJCollegesAndMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		408449E22CBAEFA7007208EF /* NJCollegesAndMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408449F42CBAEFA7007208EF /* Build configuration list for PBXNativeTarget "NJCollegesAndMapUITests" */;
+			buildPhases = (
+				408449DF2CBAEFA7007208EF /* Sources */,
+				408449E02CBAEFA7007208EF /* Frameworks */,
+				408449E12CBAEFA7007208EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408449E52CBAEFA7007208EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				408449E62CBAEFA7007208EF /* NJCollegesAndMapUITests */,
+			);
+			name = NJCollegesAndMapUITests;
+			packageProductDependencies = (
+			);
+			productName = NJCollegesAndMapUITests;
+			productReference = 408449E32CBAEFA7007208EF /* NJCollegesAndMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408449BB2CBAEFA5007208EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					408449C22CBAEFA5007208EF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					408449D82CBAEFA7007208EF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 408449C22CBAEFA5007208EF;
+					};
+					408449E22CBAEFA7007208EF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 408449C22CBAEFA5007208EF;
+					};
+				};
+			};
+			buildConfigurationList = 408449BE2CBAEFA5007208EF /* Build configuration list for PBXProject "NJCollegesAndMap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408449BA2CBAEFA5007208EF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 408449C42CBAEFA5007208EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408449C22CBAEFA5007208EF /* NJCollegesAndMap */,
+				408449D82CBAEFA7007208EF /* NJCollegesAndMapTests */,
+				408449E22CBAEFA7007208EF /* NJCollegesAndMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408449C12CBAEFA5007208EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408449D72CBAEFA7007208EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408449E12CBAEFA7007208EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408449BF2CBAEFA5007208EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408449D52CBAEFA7007208EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408449DF2CBAEFA7007208EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408449DB2CBAEFA7007208EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408449C22CBAEFA5007208EF /* NJCollegesAndMap */;
+			targetProxy = 408449DA2CBAEFA7007208EF /* PBXContainerItemProxy */;
+		};
+		408449E52CBAEFA7007208EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408449C22CBAEFA5007208EF /* NJCollegesAndMap */;
+			targetProxy = 408449E42CBAEFA7007208EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		408449ED2CBAEFA7007208EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NJCollegesAndMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1328134.NJCollegesAndMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		408449EE2CBAEFA7007208EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NJCollegesAndMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1328134.NJCollegesAndMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		408449EF2CBAEFA7007208EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408449F02CBAEFA7007208EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408449F22CBAEFA7007208EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1328134.NJCollegesAndMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJCollegesAndMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NJCollegesAndMap";
+			};
+			name = Debug;
+		};
+		408449F32CBAEFA7007208EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1328134.NJCollegesAndMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJCollegesAndMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NJCollegesAndMap";
+			};
+			name = Release;
+		};
+		408449F52CBAEFA7007208EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1328134.NJCollegesAndMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NJCollegesAndMap;
+			};
+			name = Debug;
+		};
+		408449F62CBAEFA7007208EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1328134.NJCollegesAndMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NJCollegesAndMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408449BE2CBAEFA5007208EF /* Build configuration list for PBXProject "NJCollegesAndMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408449EF2CBAEFA7007208EF /* Debug */,
+				408449F02CBAEFA7007208EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408449EC2CBAEFA7007208EF /* Build configuration list for PBXNativeTarget "NJCollegesAndMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408449ED2CBAEFA7007208EF /* Debug */,
+				408449EE2CBAEFA7007208EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408449F12CBAEFA7007208EF /* Build configuration list for PBXNativeTarget "NJCollegesAndMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408449F22CBAEFA7007208EF /* Debug */,
+				408449F32CBAEFA7007208EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408449F42CBAEFA7007208EF /* Build configuration list for PBXNativeTarget "NJCollegesAndMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408449F52CBAEFA7007208EF /* Debug */,
+				408449F62CBAEFA7007208EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408449BB2CBAEFA5007208EF /* Project object */;
+}
