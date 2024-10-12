@@ -9,15 +9,16 @@ import UIKit
 
 class CollegesListTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var collegeName: UILabel!
+    @IBOutlet weak var collegeImage: UIImageView!
+    @IBOutlet weak var go: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }

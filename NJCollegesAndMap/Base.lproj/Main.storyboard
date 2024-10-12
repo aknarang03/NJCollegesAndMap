@@ -97,13 +97,49 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="College Cell" id="Bmg-ZS-qKf" customClass="CollegesListTableViewCell" customModule="NJCollegesAndMap" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="College Cell" rowHeight="88" id="Bmg-ZS-qKf" customClass="CollegesListTableViewCell" customModule="NJCollegesAndMap" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bmg-ZS-qKf" id="Lok-Se-ZaG">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OgZ-0k-EzD">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graduationcap.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="E7a-br-4uG" userLabel="CollegeImage">
+                                                    <rect key="frame" x="0.0" y="35" width="80" height="22.333333333333329"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="Qmq-y2-rnM"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TW-hK-jws" userLabel="CollegeName">
+                                                    <rect key="frame" x="85" y="34" width="250" height="20.333333333333329"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="250" id="6nd-iN-MuG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.right.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8Du-9U-byM" userLabel="Go">
+                                                    <rect key="frame" x="340" y="34.666666666666664" width="53" height="19"/>
+                                                </imageView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="OgZ-0k-EzD" firstAttribute="leading" secondItem="Lok-Se-ZaG" secondAttribute="leading" id="2dX-Ta-0fP"/>
+                                        <constraint firstItem="OgZ-0k-EzD" firstAttribute="top" secondItem="Lok-Se-ZaG" secondAttribute="top" id="2pi-zm-JPQ"/>
+                                        <constraint firstItem="OgZ-0k-EzD" firstAttribute="centerY" secondItem="Lok-Se-ZaG" secondAttribute="centerY" id="H1I-vE-52b"/>
+                                        <constraint firstAttribute="trailing" secondItem="OgZ-0k-EzD" secondAttribute="trailing" id="hIi-4x-f3V"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="collegeImage" destination="E7a-br-4uG" id="4OM-19-8Cn"/>
+                                    <outlet property="collegeName" destination="8TW-hK-jws" id="OEw-oe-ruM"/>
+                                    <outlet property="go" destination="8Du-9U-byM" id="QPb-ae-uVl"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -118,10 +154,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sUa-Da-aVj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="57" y="211"/>
+            <point key="canvasLocation" x="55.725190839694655" y="210.56338028169014"/>
         </scene>
     </scenes>
     <resources>
+        <image name="arrowshape.right.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
         <image name="info.circle.fill" catalog="system" width="128" height="123"/>
         <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
         <image name="map" catalog="system" width="128" height="112"/>
