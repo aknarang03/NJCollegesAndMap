@@ -18,14 +18,20 @@ func testModel() {
         
         print("Load successful.")
         
-        if let firstCollege = colleges.first {
-            print("\nFirst College Details:")
-            print("ID: \(firstCollege.id)")
-            print("Name: \(firstCollege.name)")
-            print("City: \(firstCollege.city)")
-            print("County: \(firstCollege.county)")
-            print("Coordinates: \(firstCollege.coordinates)")
+        print("\nSize: \(colleges.count)")
+        
+        print("\nAll Names:")
+        for college in colleges {
+            print(college.name)
         }
+        
+        let monmouthUniversity = colleges[35]
+        print("\nMonmouth University Details:")
+        print("ID: \(monmouthUniversity.id)")
+        print("Name: \(monmouthUniversity.name)")
+        print("City: \(monmouthUniversity.city)")
+        print("County: \(monmouthUniversity.county)")
+        print("Coordinates: \(monmouthUniversity.coordinates)")
         
     }
     

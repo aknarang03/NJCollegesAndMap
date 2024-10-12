@@ -7,35 +7,25 @@
 
 import Foundation
 
-struct College:Codable {
-
-    var coordinates:[Float]
-    var id:Int
-    var name:String
-    var city:String
-    var county:String
-
-    
-    enum CodingKeys: String, CodingKey {
-    
-        case coordinates = "coordinates"
-        case id = "OBJECTID"
-        case name = "Name"
-        case city = "Municipali"
-        case county = "County"
-    
-    }
-    
+struct College: Codable {
+    var coordinates: [Double]
+    var id: Int
+    var name: String
+    var city: String
+    var county: String
 }
-
 
 class NJCollegesModel {
     
-    var njColleges:[College] = []
+    var njColleges: [College] = []
     static let sharedInstance = NJCollegesModel()
         
     private init () {
         readCollegesData()
+    }
+    
+    func getColleges() -> [College] {
+        return self.njColleges
     }
     
     func readCollegesData() {
@@ -43,24 +33,37 @@ class NJCollegesModel {
         if let filename = Bundle.main.path(forResource: "NJColleges", ofType: "json") {
             
             do {
+                
                 let jsonStr  = try String (contentsOfFile: filename, encoding: .utf8)
                 let jsonData = jsonStr.data(using: .utf8)!
-                //njColleges = try JSONDecoder().decode([College].self, from: jsonData)
-                njColleges = try! JSONDecoder().decode([College].self, from: jsonData)
+                
+                // decode features (top level object)
+                let features = try! JSONDecoder().decode([Feature].self, from: jsonData)
+                
+                for feature in features {
+                    
+                    // create college from featue
+                    
+                    let currentCollege = College(
+                        coordinates: feature.geometry.coordinates,
+                        id: feature.id,
+                        name: feature.properties.name,
+                        city: feature.properties.city,
+                        county: feature.properties.county
+                    )
+                    
+                    self.njColleges.append(currentCollege) // add to list
+                    
+                }
+                
             }
             
-            catch {
-                print("The file could not be loaded")
-            }
+            catch { print("The file could not be loaded") }
             
-        } else {
-            print ("The file could not be found")
         }
         
-    }
-    
-    func getColleges() -> [College] {
-        return self.njColleges
+        else { print ("The file could not be found") }
+        
     }
     
 }
