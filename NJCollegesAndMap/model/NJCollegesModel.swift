@@ -45,6 +45,7 @@ class NJCollegesModel {
             do {
                 let jsonStr  = try String (contentsOfFile: filename, encoding: .utf8)
                 let jsonData = jsonStr.data(using: .utf8)!
+                //njColleges = try JSONDecoder().decode([College].self, from: jsonData)
                 njColleges = try! JSONDecoder().decode([College].self, from: jsonData)
             }
             
