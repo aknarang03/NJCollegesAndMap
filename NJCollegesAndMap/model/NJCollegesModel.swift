@@ -17,6 +17,8 @@ struct College: Codable {
 
 class NJCollegesModel {
     
+    let collegeNames : [String] = ["rutgers","monmouth","stevens","drew","njinstitute","newjerseycityuniversity","talmudical","berkeley","rowancollege","rowan","princeton","montclair","kean","fairleigh","phoenix","atlanticcape","brookdale","setonhall","rabbinical","oceancountycollege","thomasedison","georgiancourt","felician","passaic","centenary","caldwell","bloomfield","warren","sussex","salem","raritanvalley","countycollegeofmorris","middlesex","hudson","mercer","essex","burlington","rider","ramapo","collegeofnewjersey","saintpeter","rabbijacob","newbrunswicktheological","devry","bethmedrash","assumption","saintelizabeth","union","cumberland","camden","bergen","williampaterson","richardstockton","pillar"]
+    
     var njColleges: [College] = []
     static let sharedInstance = NJCollegesModel()
         
@@ -73,37 +75,24 @@ class NJCollegesModel {
         else { print ("The file could not be found") }
         
     }
-    
-    func getCollegeNames() -> [String]{
-        var collegeNames: [String] = []
-        for college in njColleges {
-            collegeNames.append(college.name)
-        }
-        return collegeNames
-    }
-    
-    // DOESNT WORK YET
+
     func getImage(collegeName: String) -> String {
         
         var asset: String
-        let searchString = collegeName.lowercased().replacingOccurrences(of: " ", with: "_")
-        
-        let collegeNames = getCollegeNames()
+        let searchString = collegeName.lowercased().replacingOccurrences(of: " ", with: "")
 
         for assetName in collegeNames {
             
             if (searchString.contains(assetName)) {
-                
                 // found
                 asset = assetName
                 return asset
-                
             }
             
         }
         
         // not found
-        asset = "generic"
+        asset = "default_uni"
         return asset
 
     }
