@@ -9,7 +9,8 @@ import UIKit
 
 class CollegesSummaryViewController: UIViewController {
     
-    @IBOutlet weak var testText: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
