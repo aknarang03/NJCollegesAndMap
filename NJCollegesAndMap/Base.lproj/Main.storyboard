@@ -12,7 +12,7 @@
         <!--Colleges Summary-->
         <scene sceneID="eG0-Ip-PNu">
             <objects>
-                <viewController title="Colleges Summary" id="IoU-f0-ufx" sceneMemberID="viewController">
+                <viewController title="Colleges Summary" id="IoU-f0-ufx" customClass="CollegesSummaryViewController" customModule="NJCollegesAndMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PbK-tA-in3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
         <!--College Details-->
         <scene sceneID="Bvb-hM-qLX">
             <objects>
-                <viewController title="College Details" id="pti-1R-a5e" sceneMemberID="viewController">
+                <viewController title="College Details" id="pti-1R-a5e" customClass="CollegeDetailViewController" customModule="NJCollegesAndMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Z1-L2-AOE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--Colleges Map-->
         <scene sceneID="bwL-iJ-gM3">
             <objects>
-                <viewController title="Colleges Map" id="g5L-vc-sxR" sceneMemberID="viewController">
+                <viewController title="Colleges Map" id="g5L-vc-sxR" customClass="CollegesMapViewController" customModule="NJCollegesAndMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YfB-4L-cwP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,13 +91,13 @@
         <!--Colleges List-->
         <scene sceneID="IdW-d7-Lej">
             <objects>
-                <tableViewController title="Colleges List" id="MRs-XO-FsS" sceneMemberID="viewController">
+                <tableViewController title="Colleges List" id="MRs-XO-FsS" customClass="CollegesListViewController" customModule="NJCollegesAndMap" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="iES-07-Hn1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="College Cell" id="Bmg-ZS-qKf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="College Cell" id="Bmg-ZS-qKf" customClass="CollegesListTableViewCell" customModule="NJCollegesAndMap" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bmg-ZS-qKf" id="Lok-Se-ZaG">
