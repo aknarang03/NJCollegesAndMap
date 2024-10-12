@@ -18,70 +18,70 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9I1-6s-Wr3">
-                                <rect key="frame" x="46.666666666666657" y="166.66666666666663" width="300" height="182"/>
+                                <rect key="frame" x="21.666666666666657" y="166.66666666666663" width="350" height="182"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="52I-yL-4Ad" userLabel="TotalView">
-                                        <rect key="frame" x="0.0" y="0.0" width="136" height="23"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="52I-yL-4Ad" userLabel="TotalView">
+                                        <rect key="frame" x="0.0" y="0.0" width="348" height="23"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdV-vU-kjv" userLabel="TotalLabel">
-                                                <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Colleges:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdV-vU-kjv" userLabel="TotalLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="133.66666666666666" height="23"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="087-79-Rf5" userLabel="TotalText">
-                                                <rect key="frame" x="71.666666666666657" y="0.0" width="64.333333333333343" height="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amount" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="087-79-Rf5" userLabel="TotalText">
+                                                <rect key="frame" x="283.66666666666663" y="0.0" width="64.333333333333314" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="jDb-zF-Wuq" userLabel="NorthView">
-                                        <rect key="frame" x="0.0" y="53" width="143.33333333333334" height="23"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="78" translatesAutoresizingMaskIntoConstraints="NO" id="jDb-zF-Wuq" userLabel="NorthView">
+                                        <rect key="frame" x="0.0" y="53" width="348.66666666666669" height="23"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="North:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvN-Pv-KUY" userLabel="NorthLabel">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="North Jersey Colleges:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvN-Pv-KUY" userLabel="NorthLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="206.33333333333334" height="23"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPu-gk-OFL" userLabel="NorthText">
-                                                <rect key="frame" x="79" y="0.0" width="64.333333333333314" height="23"/>
+                                                <rect key="frame" x="284.33333333333331" y="0.0" width="64.333333333333314" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="od5-XX-gv6" userLabel="CentralView">
-                                        <rect key="frame" x="0.0" y="106.00000000000003" width="158" height="23"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="63" translatesAutoresizingMaskIntoConstraints="NO" id="od5-XX-gv6" userLabel="CentralView">
+                                        <rect key="frame" x="0.0" y="106.00000000000003" width="348" height="23"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Central:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbH-lM-KLn" userLabel="CentralLabel">
-                                                <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Central Jersey Colleges:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbH-lM-KLn" userLabel="CentralLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="23"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMw-pB-RYT" userLabel="CentralText">
-                                                <rect key="frame" x="93.666666666666686" y="0.0" width="64.333333333333314" height="23"/>
+                                                <rect key="frame" x="283.66666666666663" y="0.0" width="64.333333333333314" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="YN7-mf-T1k" userLabel="SouthView">
-                                        <rect key="frame" x="0.0" y="159.00000000000003" width="139.33333333333334" height="23"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="77" translatesAutoresizingMaskIntoConstraints="NO" id="YN7-mf-T1k" userLabel="SouthView">
+                                        <rect key="frame" x="0.0" y="159.00000000000003" width="349.33333333333331" height="23"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="South" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbV-By-P1y" userLabel="SouthLabel">
-                                                <rect key="frame" x="0.0" y="0.0" width="54" height="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="South Jersey Colleges:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbV-By-P1y" userLabel="SouthLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="208" height="23"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Atp-za-08h" userLabel="SouthText">
-                                                <rect key="frame" x="75" y="0.0" width="64.333333333333314" height="23"/>
+                                                <rect key="frame" x="285" y="0.0" width="64.333333333333314" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -90,7 +90,7 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="8hH-Z1-zug"/>
+                                    <constraint firstAttribute="width" constant="350" id="8hH-Z1-zug"/>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Summary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSE-5g-7tx">
@@ -111,6 +111,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Summary" image="info.circle.fill" catalog="system" id="LZb-ut-4mR"/>
+                    <connections>
+                        <outlet property="centralText" destination="UMw-pB-RYT" id="cn3-Mw-Mvj"/>
+                        <outlet property="northText" destination="rPu-gk-OFL" id="D1W-fz-xz1"/>
+                        <outlet property="southText" destination="Atp-za-08h" id="2Tn-NZ-zoE"/>
+                        <outlet property="totalText" destination="087-79-Rf5" id="47i-TS-TZ9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G8g-me-LCc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
