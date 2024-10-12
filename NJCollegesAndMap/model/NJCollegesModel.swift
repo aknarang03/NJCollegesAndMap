@@ -97,4 +97,15 @@ class NJCollegesModel {
 
     }
     
+    func getSummaryValues() -> [Int] {
+        
+        let totalColleges = njColleges.count
+        let northColleges = njColleges.filter { $0.coordinates[1] > 40.47368 }.count
+        let centralColleges = njColleges.filter { $0.coordinates[1] >= 39.95219 && $0.coordinates[1] <= 40.47378 }.count
+        let southColleges = njColleges.filter { $0.coordinates[1] < 39.95219 }.count
+        
+        return [totalColleges,northColleges,centralColleges,southColleges]
+        
+    }
+    
 }
