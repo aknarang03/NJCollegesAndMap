@@ -1,0 +1,3123 @@
+[
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.450847996722231,
+          40.503851973654783
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "OBJECTID" : 1,
+        "Name" : "Rutgers - New Burnswick",
+        "Municipali" : "New Brunswick City",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885318",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1213",
+        "AREA_CODE" : "732",
+        "PHONE" : "932-1766",
+        "ADDRESS" : "83 SOMERSET STREET",
+        "ADDRESS2" : " ",
+        "CITY" : "NEW BRUNSWICK",
+        "STATE" : "NJ",
+        "ZIP" : "08901",
+        "ZIP4" : "1281",
+        "FIPS" : "34023",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 36658.887909199999,
+        "Shape_Area" : 3431200.7452199999,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.43221304317845,
+          40.477090050876299
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "OBJECTID" : 2,
+        "Name" : "Rutgers - Cook",
+        "Municipali" : "New Brunswick City",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885318",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1213",
+        "AREA_CODE" : "732",
+        "PHONE" : "932-1766",
+        "ADDRESS" : "83 SOMERSET STREET",
+        "ADDRESS2" : " ",
+        "CITY" : "NEW BRUNSWICK",
+        "STATE" : "NJ",
+        "ZIP" : "08901",
+        "ZIP4" : "1281",
+        "FIPS" : "34023",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 80494.761348100001,
+        "Shape_Area" : 35270223.120200001,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.440338342513726,
+          40.519164563669754
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "OBJECTID" : 3,
+        "Name" : "Rutgers - Livingston",
+        "Municipali" : "Piscataway Twp",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882167",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1217",
+        "AREA_CODE" : "732",
+        "PHONE" : "932-1766",
+        "ADDRESS" : "65 DAVIDSON ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "PISCATAWAY",
+        "STATE" : "NJ",
+        "ZIP" : "08854",
+        "ZIP4" : "5602",
+        "FIPS" : "34023",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "34449",
+        "Shape_Leng" : 47651.512133199998,
+        "Shape_Area" : 40737730.238799997,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.033283347611942,
+          40.726828564590548
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "OBJECTID" : 4,
+        "Name" : "University of Phoenix - Jersey City",
+        "Municipali" : "Jersey City",
+        "County" : "Hudson",
+        "Parcel" : "Y/N",
+        "Comments" : "Mapped parcel where point from nj_colleges_univ file located it",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885264",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0906",
+        "AREA_CODE" : "201",
+        "PHONE" : "610-1408",
+        "ADDRESS" : "100 TOWN SQUARE PLACE",
+        "ADDRESS2" : "3RD FLOOR",
+        "CITY" : "JERSEY CITY",
+        "STATE" : "NJ",
+        "ZIP" : "07310",
+        "ZIP4" : " ",
+        "FIPS" : "34017",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "383",
+        "Shape_Leng" : 635.40996207739136,
+        "Shape_Area" : 17758.906853600001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.427504996340701,
+          40.760812796292548
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "OBJECTID" : 5,
+        "Name" : "Drew University",
+        "Municipali" : "Madison Boro",
+        "County" : "Morris",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885287",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1417",
+        "AREA_CODE" : "973",
+        "PHONE" : "408-3000",
+        "ADDRESS" : "36 MADISON AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "MADISON",
+        "STATE" : "NJ",
+        "ZIP" : "07940",
+        "ZIP4" : "1434",
+        "FIPS" : "34027",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "2627",
+        "Shape_Leng" : 18518.814921500001,
+        "Shape_Area" : 7453374.4935499998,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.128361171489118,
+          39.950487031011562
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "OBJECTID" : 6,
+        "Name" : "Rutgers - Camden",
+        "Municipali" : "Camden City",
+        "County" : "Camden",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885177",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0408",
+        "AREA_CODE" : "856",
+        "PHONE" : "225-6104",
+        "ADDRESS" : "406 PENN STREET",
+        "ADDRESS2" : " ",
+        "CITY" : "CAMDEN",
+        "STATE" : "NJ",
+        "ZIP" : "08102",
+        "ZIP4" : "1400",
+        "FIPS" : "34007",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "5321",
+        "Shape_Leng" : 20552.621348100001,
+        "Shape_Area" : 1674523.9135799999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.664416391288839,
+          40.344539086452514
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "OBJECTID" : 7,
+        "Name" : "Princeton Theological Seminary",
+        "Municipali" : "Princeton",
+        "County" : "Mercer",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "THEOLOGICAL SEMINARIES OFFERING BACCALAUREAT OR GRADUATE DEGREES",
+        "GNIS" : "885361",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1109",
+        "AREA_CODE" : "609",
+        "PHONE" : "921-8300",
+        "ADDRESS" : "64 MERCER STREET",
+        "ADDRESS2" : " ",
+        "CITY" : "PRINCETON",
+        "STATE" : "NJ",
+        "ZIP" : "08542",
+        "ZIP4" : "6819",
+        "FIPS" : "34021",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "734",
+        "Shape_Leng" : 14843.417147100001,
+        "Shape_Area" : 1764234.1126900001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 6
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.17551420618976,
+          40.741301486903026
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "OBJECTID" : 8,
+        "Name" : "Rutgers - Newark",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885317",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "973",
+        "PHONE" : "353-1766",
+        "ADDRESS" : "249 UNIVERSITY AVENUE",
+        "ADDRESS2" : "BLUMENTHAL HALL- STUDENT SERVICES BUILDING",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : "07102",
+        "ZIP4" : "1808",
+        "FIPS" : "34013",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "10246",
+        "Shape_Leng" : 20684.3563058,
+        "Shape_Area" : 1781052.2165000001,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 7
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.188798239981949,
+          40.898920061420164
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "OBJECTID" : 9,
+        "Name" : "Berkeley College - Woodland Park",
+        "Municipali" : "Woodland Park Boro",
+        "County" : "Passaic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885439",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1616",
+        "AREA_CODE" : "973",
+        "PHONE" : "278-5400",
+        "ADDRESS" : "44 RIFLE CAMP ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "WOODLAND PARK",
+        "STATE" : "NJ",
+        "ZIP" : "07424",
+        "ZIP4" : "3353",
+        "FIPS" : "34031",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "2422",
+        "Shape_Leng" : 6891.0935046900004,
+        "Shape_Area" : 1924576.2978699999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 8
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.068331546043296,
+          40.946227229319348
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "OBJECTID" : 10,
+        "Name" : "Berkeley College - Paramus",
+        "Municipali" : "Paramus Boro",
+        "County" : "Bergen",
+        "Parcel" : "Y",
+        "Comments" : "May not be entire building",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885340",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "0246",
+        "AREA_CODE" : "866",
+        "PHONE" : "232-5147",
+        "ADDRESS" : "64 E. MIDLAND AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "PARAMUS",
+        "STATE" : "NJ",
+        "ZIP" : "07652",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "8300",
+        "Shape_Leng" : 3169.8631864700001,
+        "Shape_Area" : 351196.05431400001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 9
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.55875082977505,
+          40.884494513812626
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "OBJECTID" : 11,
+        "Name" : "Berkeley College - Dover",
+        "Municipali" : "Dover Town",
+        "County" : "Morris",
+        "Parcel" : "Y/N",
+        "Comments" : "Mixed parcel",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885196",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1409",
+        "AREA_CODE" : "866",
+        "PHONE" : "232-5147",
+        "ADDRESS" : "1 WEST BLACKWELL ST",
+        "ADDRESS2" : " ",
+        "CITY" : "DOVER",
+        "STATE" : "NJ",
+        "ZIP" : "07801",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 501.14567317552604,
+        "Shape_Area" : 12180.548602999999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 10
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.16884894420194,
+          40.743379205793779
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "OBJECTID" : 12,
+        "Name" : "Berkeley College - Newark",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885317",
+        "NAICSCODE" : "61310",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "866",
+        "PHONE" : "232-5147",
+        "ADDRESS" : "536 BROAD ST",
+        "ADDRESS2" : " ",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : " ",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 594.90031522356117,
+        "Shape_Area" : 14272.112670300001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 11
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.275049300017969,
+          40.556440444806363
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "OBJECTID" : 13,
+        "Name" : "Berkeley College - Woodbridge",
+        "Municipali" : "Woodbridge Twp",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882165",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1225",
+        "AREA_CODE" : "866",
+        "PHONE" : "232-5147",
+        "ADDRESS" : "430 RAHWAY AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "WOODBRIDGE",
+        "STATE" : "NJ",
+        "ZIP" : "07095",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 1836.8546533199999,
+        "Shape_Area" : 123490.787063,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 12
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.119749808105453,
+          39.940380740763572
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "OBJECTID" : 14,
+        "Name" : "Rowan - Cooper Medical College",
+        "Municipali" : "Camden City",
+        "County" : "Camden",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "MEDICAL SCHOOLS",
+        "GNIS" : "885177",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0408",
+        "AREA_CODE" : "856",
+        "PHONE" : "361-2800",
+        "ADDRESS" : "401 S. BROADWAY",
+        "ADDRESS2" : " ",
+        "CITY" : "CAMDEN",
+        "STATE" : "NJ",
+        "ZIP" : "08103",
+        "ZIP4" : " ",
+        "FIPS" : "34007",
+        "DEGREE" : " ",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 928.65048902365947,
+        "Shape_Area" : 51177.5694458,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 13
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.041242592099479,
+          39.784586316414426
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "OBJECTID" : 15,
+        "Name" : "Camden County College - Blackwood Campus",
+        "Municipali" : "Gloucester Twp",
+        "County" : "Camden",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882154",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0415",
+        "AREA_CODE" : "856",
+        "PHONE" : "227-7200",
+        "ADDRESS" : "200 COLLEGE DRIVE",
+        "ADDRESS2" : " ",
+        "CITY" : "BLACKWOOD",
+        "STATE" : "NJ",
+        "ZIP" : "08012",
+        "ZIP4" : "3228",
+        "FIPS" : "34007",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "14737",
+        "Shape_Leng" : 14266.9619834,
+        "Shape_Area" : 8980164.7177000009,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 14
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.662834058524822,
+          40.339105911451597
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "OBJECTID" : 16,
+        "Name" : "Princeton University",
+        "Municipali" : "Princeton; West Windsor Twp; S. Brunswick Twp",
+        "County" : "Mercer; Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885361",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1109",
+        "AREA_CODE" : "609",
+        "PHONE" : "258-3000",
+        "ADDRESS" : "NASSAU STREET",
+        "ADDRESS2" : " ",
+        "CITY" : "PRINCETON",
+        "STATE" : "NJ",
+        "ZIP" : "08544",
+        "ZIP4" : " ",
+        "FIPS" : "34021",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "6773",
+        "Shape_Leng" : 229012.21669,
+        "Shape_Area" : 73351257.1558,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 15
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.072902729822957,
+          40.727791128294584
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "OBJECTID" : 17,
+        "Name" : "Saint Peter's University",
+        "Municipali" : "Jersey City",
+        "County" : "Hudson",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885264",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0906",
+        "AREA_CODE" : "201",
+        "PHONE" : "915-9000",
+        "ADDRESS" : "2641 KENNEDY BOULEVARD",
+        "ADDRESS2" : " ",
+        "CITY" : "JERSEY CITY",
+        "STATE" : "NJ",
+        "ZIP" : "07306",
+        "ZIP4" : "5943",
+        "FIPS" : "34017",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "2931",
+        "Shape_Leng" : 8880.9113518600007,
+        "Shape_Area" : 573067.79131100001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 16
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.16891812441439,
+          40.73756689118914
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "OBJECTID" : 18,
+        "Name" : "Pillar College Franklin Twp",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : "One building",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885317",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "973",
+        "PHONE" : "803-5000",
+        "ADDRESS" : "600 Apgar Dr",
+        "ADDRESS2" : " ",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : "08873",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "MASTERS DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 2063.6351582799998,
+        "Shape_Area" : 234719.78529699999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 17
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.355471792464542,
+          40.61746952715233
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "OBJECTID" : 19,
+        "Name" : "Rutgers School of Health Professions Scotch Plains",
+        "Municipali" : "Scotch Plains Twp",
+        "County" : "Union",
+        "Parcel" : "N",
+        "Comments" : "Mixed parcel with Union County Vocational School",
+        "NAICSDESCR" : "MEDICAL SCHOOLS",
+        "GNIS" : "882217",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "2016",
+        "AREA_CODE" : "973",
+        "PHONE" : "972-9170",
+        "ADDRESS" : "1776 RARITAN ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "SCOTCH PLAINS",
+        "STATE" : "NJ",
+        "ZIP" : "07076",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : " ",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 2329.2101568500002,
+        "Shape_Area" : 323228.542739,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 18
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.460008290293388,
+          40.519257377618366
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "OBJECTID" : 20,
+        "Name" : "Rutgers - Busch",
+        "Municipali" : "Piscataway Twp",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : "Surrounds Univ. of Medicine & Dentistry which does not align w. parcels",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882167",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1217",
+        "AREA_CODE" : "732",
+        "PHONE" : "932-1766",
+        "ADDRESS" : "65 DAVIDSON ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "PISCATAWAY",
+        "STATE" : "NJ",
+        "ZIP" : "08854",
+        "ZIP4" : "5602",
+        "FIPS" : "34023",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "34449",
+        "Shape_Leng" : 57836.978004600001,
+        "Shape_Area" : 31340823.916700002,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 19
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.822417256960478,
+          39.103141310813918
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "OBJECTID" : 21,
+        "Name" : "Atlantic Cape Community College - Cape May Campus",
+        "Municipali" : "Middle Twp",
+        "County" : "Cape May",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : " ",
+        "NAICSCODE" : " ",
+        "MUN_CODE" : " ",
+        "AREA_CODE" : " ",
+        "PHONE" : " ",
+        "ADDRESS" : "341 COURT HOUSE-SOUTH DENNIS RD",
+        "ADDRESS2" : " ",
+        "CITY" : "MIDDLE TWP",
+        "STATE" : "NJ",
+        "ZIP" : "08210",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 4462.9358636799998,
+        "Shape_Area" : 683718.56221,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 20
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.431427304966277,
+          39.363560178333763
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "OBJECTID" : 22,
+        "Name" : "Atlantic Cape Community College - Atlantic City",
+        "Municipali" : "Atlantic City",
+        "County" : "Atlantic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : " ",
+        "NAICSCODE" : " ",
+        "MUN_CODE" : " ",
+        "AREA_CODE" : " ",
+        "PHONE" : " ",
+        "ADDRESS" : "1535 BACHARACH BLVD",
+        "ADDRESS2" : " ",
+        "CITY" : "ATLANTIC CITY",
+        "STATE" : "NJ",
+        "ZIP" : " ",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 1652.5221431499999,
+        "Shape_Area" : 166847.77959200001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 21
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.763841189144983,
+          40.221476277647362
+        ]
+      },
+      "properties" : {
+        "FID" : 22,
+        "OBJECTID" : 23,
+        "Name" : "Mercer County Community College - Kerney Campus",
+        "Municipali" : "Trenton City",
+        "County" : "Mercer",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882124",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "1111",
+        "AREA_CODE" : "609",
+        "PHONE" : " ",
+        "ADDRESS" : "102 NORTH BROAD ST",
+        "ADDRESS2" : " ",
+        "CITY" : "TRENTON CITY",
+        "STATE" : "NJ",
+        "ZIP" : "08608",
+        "ZIP4" : " ",
+        "FIPS" : "34021",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 894.64539043654986,
+        "Shape_Area" : 44591.3729054,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 22
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.178757486789138,
+          40.742661010631039
+        ]
+      },
+      "properties" : {
+        "FID" : 23,
+        "OBJECTID" : 24,
+        "Name" : "NJ Institute of Technology",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "TECHNICAL AND TRADE SCHOOLS",
+        "GNIS" : "885317",
+        "NAICSCODE" : "61151",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "973",
+        "PHONE" : "596-3000",
+        "ADDRESS" : "323 MARTIN LUTHER KING JUNIOR BOULEVARD",
+        "ADDRESS2" : " ",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : "07102",
+        "ZIP4" : "1824",
+        "FIPS" : "34013",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "8058",
+        "Shape_Leng" : 13119.54247,
+        "Shape_Area" : 1608036.4489,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 23
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.18925885175814,
+          40.740127592292659
+        ]
+      },
+      "properties" : {
+        "FID" : 24,
+        "OBJECTID" : 25,
+        "Name" : "Rutgers School of Health Professions Newark",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "MEDICAL SCHOOLS",
+        "GNIS" : "885317",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "973",
+        "PHONE" : "972-4300",
+        "ADDRESS" : "65 BERGEN STREET",
+        "ADDRESS2" : "SUITE 701",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : "07107",
+        "ZIP4" : "3001",
+        "FIPS" : "34013",
+        "DEGREE" : " ",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 11788.2066629,
+        "Shape_Area" : 2772090.7647600002,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 24
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.470266087855649,
+          40.524641061890726
+        ]
+      },
+      "properties" : {
+        "FID" : 25,
+        "OBJECTID" : 26,
+        "Name" : "Rutgers School of Health Professions Piscataway",
+        "Municipali" : "Piscataway Twp",
+        "County" : "Middlesex",
+        "Parcel" : "N",
+        "Comments" : "Surrounded by Rutgers and does not align w. parcels",
+        "NAICSDESCR" : "MEDICAL SCHOOLS",
+        "GNIS" : "882167",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1217",
+        "AREA_CODE" : "732",
+        "PHONE" : "235-4646",
+        "ADDRESS" : "675 HOES LANE",
+        "ADDRESS2" : " ",
+        "CITY" : "PISCATAWAY",
+        "STATE" : "NJ",
+        "ZIP" : "08854",
+        "ZIP4" : "5627",
+        "FIPS" : "34023",
+        "DEGREE" : " ",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 7483.4619603399997,
+        "Shape_Area" : 2244656.90741,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 25
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.005329769678255,
+          39.829126768034904
+        ]
+      },
+      "properties" : {
+        "FID" : 26,
+        "OBJECTID" : 27,
+        "Name" : "Rutgers School of Health Professions  Stratford",
+        "Municipali" : "Stafford Boro",
+        "County" : "Camden",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "MEDICAL SCHOOLS",
+        "GNIS" : "885411",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0432",
+        "AREA_CODE" : "856",
+        "PHONE" : "566-2790",
+        "ADDRESS" : "40 EAST LAUREL ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "STRATFORD",
+        "STATE" : "NJ",
+        "ZIP" : "08084",
+        "ZIP4" : "1350",
+        "FIPS" : "34007",
+        "DEGREE" : " ",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 6344.1040180399996,
+        "Shape_Area" : 1793276.2388800001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 26
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.777677131010691,
+          40.26869014193506
+        ]
+      },
+      "properties" : {
+        "FID" : 27,
+        "OBJECTID" : 28,
+        "Name" : "The College of New Jersey",
+        "Municipali" : "Ewing Twp",
+        "County" : "Mercer",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882128",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1102",
+        "AREA_CODE" : "609",
+        "PHONE" : "771-1855",
+        "ADDRESS" : "2000 PENNINGTON ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "EWING",
+        "STATE" : "NJ",
+        "ZIP" : "08628",
+        "ZIP4" : "1104",
+        "FIPS" : "34021",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "6768",
+        "Shape_Leng" : 69459.623431800006,
+        "Shape_Area" : 19721403.3037,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 27
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.234310513541431,
+          40.678491970966903
+        ]
+      },
+      "properties" : {
+        "FID" : 28,
+        "OBJECTID" : 29,
+        "Name" : "Kean University",
+        "Municipali" : "Union twp",
+        "County" : "Union",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882212",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "2019",
+        "AREA_CODE" : "908",
+        "PHONE" : "737-5326",
+        "ADDRESS" : "1000 MORRIS AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "UNION",
+        "STATE" : "NJ",
+        "ZIP" : "07083",
+        "ZIP4" : "7133",
+        "FIPS" : "34039",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "12958",
+        "Shape_Leng" : 26295.887173300001,
+        "Shape_Area" : 8522479.6518600006,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 28
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.197067446557028,
+          40.863809296719261
+        ]
+      },
+      "properties" : {
+        "FID" : 29,
+        "OBJECTID" : 30,
+        "Name" : "Montclair State University",
+        "Municipali" : "Montclair Twp, Little Falls Twp, Clifton City",
+        "County" : "Essex; Passaic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "1729720",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0713",
+        "AREA_CODE" : "973",
+        "PHONE" : "655-4000",
+        "ADDRESS" : "1 NORMAL AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "MONTCLAIR",
+        "STATE" : "NJ",
+        "ZIP" : "07043",
+        "ZIP4" : "1624",
+        "FIPS" : "34013",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "16063",
+        "Shape_Leng" : 24823.607056500001,
+        "Shape_Area" : 10580195.8693,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 29
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.174641831365065,
+          41.081190461737052
+        ]
+      },
+      "properties" : {
+        "FID" : 30,
+        "OBJECTID" : 31,
+        "Name" : "Ramapo College of New Jersey",
+        "Municipali" : "Mahwah Twp",
+        "County" : "Bergen",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882312",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0233",
+        "AREA_CODE" : "201",
+        "PHONE" : "684-7500",
+        "ADDRESS" : "505 RAMAPO VALLEY RD",
+        "ADDRESS2" : " ",
+        "CITY" : "MAHWAH",
+        "STATE" : "NJ",
+        "ZIP" : "07430",
+        "ZIP4" : "1623",
+        "FIPS" : "34003",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "5538",
+        "Shape_Leng" : 25661.153669399999,
+        "Shape_Area" : 12813275.5175,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 30
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.5353209687255,
+          39.488117682895613
+        ]
+      },
+      "properties" : {
+        "FID" : 31,
+        "OBJECTID" : 32,
+        "Name" : "The Richard Stockton College of New Jersey",
+        "Municipali" : "Galloway Twp",
+        "County" : "Atlantic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882052",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0111",
+        "AREA_CODE" : "609",
+        "PHONE" : "652-1776",
+        "ADDRESS" : "JIMMIE LEEDS ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "POMONA",
+        "STATE" : "NJ",
+        "ZIP" : "08240",
+        "ZIP4" : " ",
+        "FIPS" : "34001",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "7035",
+        "Shape_Leng" : 42439.677819099998,
+        "Shape_Area" : 70397205.857899994,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 31
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.196864828868101,
+          40.949168406613396
+        ]
+      },
+      "properties" : {
+        "FID" : 32,
+        "OBJECTID" : 33,
+        "Name" : "William Patterson University of New Jersey",
+        "Municipali" : "Wayne Twp; Haledon; N. Haledon Boro",
+        "County" : "Passaic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882314",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1614",
+        "AREA_CODE" : "973",
+        "PHONE" : "720-2000",
+        "ADDRESS" : "300 POMPTON RD",
+        "ADDRESS2" : " ",
+        "CITY" : "WAYNE",
+        "STATE" : "NJ",
+        "ZIP" : "07470",
+        "ZIP4" : "2103",
+        "FIPS" : "34031",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "10970",
+        "Shape_Leng" : 36348.782151500003,
+        "Shape_Area" : 16199135.2871,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 32
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.029263380409219,
+          40.897865504853577
+        ]
+      },
+      "properties" : {
+        "FID" : 33,
+        "OBJECTID" : 34,
+        "Name" : "Fairleigh Dickinson University - Metropolitan",
+        "Municipali" : "Hackensack City; Teaneck Twp",
+        "County" : "Bergen",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885236",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0260",
+        "AREA_CODE" : "201",
+        "PHONE" : "692-2000",
+        "ADDRESS" : "1000 RIVER ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "TEANECK",
+        "STATE" : "NJ",
+        "ZIP" : "07666",
+        "ZIP4" : "1914",
+        "FIPS" : "34003",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "8237",
+        "Shape_Leng" : 25639.080686699999,
+        "Shape_Area" : 4365675.4983799998,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 33
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.43227782763806,
+          40.775844219108116
+        ]
+      },
+      "properties" : {
+        "FID" : 34,
+        "OBJECTID" : 35,
+        "Name" : "Fairleigh Dickenson University - Floram",
+        "Municipali" : "Florham Park Boro",
+        "County" : "Morris",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885221",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1411",
+        "AREA_CODE" : "973",
+        "PHONE" : "443-8500",
+        "ADDRESS" : "285 MADISON AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "MADISON",
+        "STATE" : "NJ",
+        "ZIP" : "07940",
+        "ZIP4" : "1006",
+        "FIPS" : "34027",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "3481",
+        "Shape_Leng" : 15239.5065579,
+        "Shape_Area" : 7029792.9094700003,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 34
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.006703512868626,
+          40.278746727303059
+        ]
+      },
+      "properties" : {
+        "FID" : 35,
+        "OBJECTID" : 36,
+        "Name" : "Monmouth University",
+        "Municipali" : "W. Long Branch Boro; Long Branch City",
+        "County" : "Monmouth",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885437",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1353",
+        "AREA_CODE" : "732",
+        "PHONE" : "571-3400",
+        "ADDRESS" : "400 CEDAR AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "WEST LONG BRANCH",
+        "STATE" : "NJ",
+        "ZIP" : "07764",
+        "ZIP4" : "1857",
+        "FIPS" : "34025",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "6351",
+        "Shape_Leng" : 23416.211116300001,
+        "Shape_Area" : 6470716.3223999999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 35
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.747427392948183,
+          40.282894026510576
+        ]
+      },
+      "properties" : {
+        "FID" : 36,
+        "OBJECTID" : 37,
+        "Name" : "Rider University",
+        "Municipali" : "Lawrence Twp",
+        "County" : "Mercer",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882126",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1107",
+        "AREA_CODE" : "609",
+        "PHONE" : "896-5000",
+        "ADDRESS" : "2083 LAWRENCEVILLE ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "LAWRENCEVILLE",
+        "STATE" : "NJ",
+        "ZIP" : "08648",
+        "ZIP4" : "3001",
+        "FIPS" : "34021",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "5552",
+        "Shape_Leng" : 22244.238469100001,
+        "Shape_Area" : 12105148.020400001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 36
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.246597642911269,
+          40.742804607542361
+        ]
+      },
+      "properties" : {
+        "FID" : 37,
+        "OBJECTID" : 38,
+        "Name" : "Seton Hall University",
+        "Municipali" : "South Orange Village Twp",
+        "County" : "Essex",
+        "Parcel" : "N",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "880741",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0719",
+        "AREA_CODE" : "973",
+        "PHONE" : "761-9000",
+        "ADDRESS" : "400 SOUTH ORANGE AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "SOUTH ORANGE",
+        "STATE" : "NJ",
+        "ZIP" : "07079",
+        "ZIP4" : "2646",
+        "FIPS" : "34013",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "9637",
+        "Shape_Leng" : 9622.3875492900006,
+        "Shape_Area" : 2541493.9899800001,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 37
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.025251158856236,
+          40.744933852015869
+        ]
+      },
+      "properties" : {
+        "FID" : 38,
+        "OBJECTID" : 39,
+        "Name" : "Stevens Institute of Technology",
+        "Municipali" : "Hoboken City",
+        "County" : "Hudson",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "TECHNICAL AND TRADE SCHOOLS",
+        "GNIS" : "885257",
+        "NAICSCODE" : "61151",
+        "MUN_CODE" : "0905",
+        "AREA_CODE" : "201",
+        "PHONE" : "216-5100",
+        "ADDRESS" : "9TH STREET",
+        "ADDRESS2" : "CASTLE POINT ON HUDSON",
+        "CITY" : "HOBOKEN",
+        "STATE" : "NJ",
+        "ZIP" : "07030",
+        "ZIP4" : " ",
+        "FIPS" : "34017",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "4690",
+        "Shape_Leng" : 14215.795306599999,
+        "Shape_Area" : 2198052.7929799999,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 38
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.69301278440534,
+          39.455882396304254
+        ]
+      },
+      "properties" : {
+        "FID" : 39,
+        "OBJECTID" : 40,
+        "Name" : "Atlantic Cape Community College - Mays Landing",
+        "Municipali" : "Hamilton Twp",
+        "County" : "Atlantic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882049",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "0112",
+        "AREA_CODE" : "609",
+        "PHONE" : "625-1111",
+        "ADDRESS" : "5100 BLACK HORSE PIKE",
+        "ADDRESS2" : "J BUILDING",
+        "CITY" : "MAYS LANDING",
+        "STATE" : "NJ",
+        "ZIP" : "08330",
+        "ZIP4" : "2623",
+        "FIPS" : "34001",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "6845",
+        "Shape_Leng" : 40097.030362700003,
+        "Shape_Area" : 23679740.8171,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 39
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.088161484165525,
+          40.951030398244804
+        ]
+      },
+      "properties" : {
+        "FID" : 40,
+        "OBJECTID" : 41,
+        "Name" : "Bergen Community College - Paramus",
+        "Municipali" : "Paramus Boro",
+        "County" : "Bergen",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "885340",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "0246",
+        "AREA_CODE" : "201",
+        "PHONE" : "447-7100",
+        "ADDRESS" : "400 PARAMUS ROAD",
+        "ADDRESS2" : "BUILDING A",
+        "CITY" : "PARAMUS",
+        "STATE" : "NJ",
+        "ZIP" : "07652",
+        "ZIP4" : "1508",
+        "FIPS" : "34003",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "14762",
+        "Shape_Leng" : 12394.6362178,
+        "Shape_Area" : 7238140.71165,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 40
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.131621811181802,
+          40.326125604946846
+        ]
+      },
+      "properties" : {
+        "FID" : 41,
+        "OBJECTID" : 42,
+        "Name" : "Brookdale Community College",
+        "Municipali" : "Middletown Twp",
+        "County" : "Monmouth",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882604",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "1332",
+        "AREA_CODE" : "732",
+        "PHONE" : "224-2345",
+        "ADDRESS" : "765 NEWMAN SPRINGS ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "LINCROFT",
+        "STATE" : "NJ",
+        "ZIP" : "07738",
+        "ZIP4" : "1543",
+        "FIPS" : "34025",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "13279",
+        "Shape_Leng" : 21898.669699499998,
+        "Shape_Area" : 9614035.8467900008,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 41
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.644909618316703,
+          39.963933161830028
+        ]
+      },
+      "properties" : {
+        "FID" : 42,
+        "OBJECTID" : 43,
+        "Name" : "Rowan College at Burlington County",
+        "Municipali" : "Pemberton Twp",
+        "County" : "Burlington",
+        "Parcel" : "Y",
+        "Comments" : "Prev. known as Burlington Co.",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882089",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0329",
+        "AREA_CODE" : "609",
+        "PHONE" : "894-9311",
+        "ADDRESS" : "601 PEMBERTON-BROWNS MILLS ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "PEMBERTON",
+        "STATE" : "NJ",
+        "ZIP" : "08068",
+        "ZIP4" : "1536",
+        "FIPS" : "34005",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "7888",
+        "Shape_Leng" : 19292.6866505,
+        "Shape_Area" : 10098327.0823,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 42
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.894135832515417,
+          39.971242936163556
+        ]
+      },
+      "properties" : {
+        "FID" : 43,
+        "OBJECTID" : 44,
+        "Name" : "Burlington County College - Mount Laurel Campus",
+        "Municipali" : "Mount Laurel Twp",
+        "County" : "Burlington",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882093",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0324",
+        "AREA_CODE" : "856",
+        "PHONE" : "222-9311",
+        "ADDRESS" : "500 COLLEGE CIRCLE",
+        "ADDRESS2" : " ",
+        "CITY" : "MOUNT LAUREL",
+        "STATE" : "NJ",
+        "ZIP" : "08054",
+        "ZIP4" : " ",
+        "FIPS" : " ",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 10600.925021700001,
+        "Shape_Area" : 3844470.2234,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 43
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.118578340341287,
+          39.947140132875809
+        ]
+      },
+      "properties" : {
+        "FID" : 44,
+        "OBJECTID" : 45,
+        "Name" : "Camden County College - Camden Campus",
+        "Municipali" : "Camden City",
+        "County" : "Camden",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885177",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0408",
+        "AREA_CODE" : "856",
+        "PHONE" : "338-1817",
+        "ADDRESS" : "200 NORTH BROADWAY",
+        "ADDRESS2" : " ",
+        "CITY" : "CAMDEN",
+        "STATE" : "NJ",
+        "ZIP" : "08102",
+        "ZIP4" : "1185",
+        "FIPS" : "34007",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 2385.3914399099999,
+        "Shape_Area" : 77706.075352100001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 44
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.177239241419272,
+          40.738244283148063
+        ]
+      },
+      "properties" : {
+        "FID" : 45,
+        "OBJECTID" : 46,
+        "Name" : "Essex County College",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885317",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "973",
+        "PHONE" : "877-3000",
+        "ADDRESS" : "303 UNIVERSITY AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : "07102",
+        "ZIP4" : "1719",
+        "FIPS" : "34013",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "10435",
+        "Shape_Leng" : 7667.9983456299997,
+        "Shape_Area" : 983919.24061600002,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 45
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.122752089942153,
+          39.781833342998461
+        ]
+      },
+      "properties" : {
+        "FID" : 46,
+        "OBJECTID" : 47,
+        "Name" : "Rowan College at Gloucester County",
+        "Municipali" : "Deptford Twp",
+        "County" : "Gloucester",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882149",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0802",
+        "AREA_CODE" : "856",
+        "PHONE" : "468-5000",
+        "ADDRESS" : "1400 TANYARD RD",
+        "ADDRESS2" : " ",
+        "CITY" : "SEWELL",
+        "STATE" : "NJ",
+        "ZIP" : "08080",
+        "ZIP4" : "4222",
+        "FIPS" : "34015",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "6022",
+        "Shape_Leng" : 19199.148091399999,
+        "Shape_Area" : 10071461.4026,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 46
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.649343252040481,
+          40.255084299044903
+        ]
+      },
+      "properties" : {
+        "FID" : 47,
+        "OBJECTID" : 48,
+        "Name" : "Mercer County Community College",
+        "Municipali" : "West Windsor Twp",
+        "County" : "Mercer",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882124",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "1113",
+        "AREA_CODE" : "609",
+        "PHONE" : "586-4800",
+        "ADDRESS" : "1200 OLD TRENTON ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "WEST WINDSOR",
+        "STATE" : "NJ",
+        "ZIP" : "08550",
+        "ZIP4" : "3407",
+        "FIPS" : "34021",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "8928",
+        "Shape_Leng" : 16998.7620207,
+        "Shape_Area" : 11238105.423900001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 47
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.062564008618224,
+          40.730863523036739
+        ]
+      },
+      "properties" : {
+        "FID" : 48,
+        "OBJECTID" : 49,
+        "Name" : "Hudson County Community College",
+        "Municipali" : "Jersey City",
+        "County" : "Hudson",
+        "Parcel" : "Y",
+        "Comments" : "Some blank parcels added from campus map.",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "885264",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "0906",
+        "AREA_CODE" : "201",
+        "PHONE" : "714-7100",
+        "ADDRESS" : "70 SIP AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "JERSEY CITY",
+        "STATE" : "NJ",
+        "ZIP" : "07306",
+        "ZIP4" : "3135",
+        "FIPS" : "34017",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "6447",
+        "Shape_Leng" : 6496.1278784599999,
+        "Shape_Area" : 219256.154691,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 48
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.05698461755938,
+          39.439328294206277
+        ]
+      },
+      "properties" : {
+        "FID" : 49,
+        "OBJECTID" : 50,
+        "Name" : "Cumberland County College",
+        "Municipali" : "Millville City; Vineland City",
+        "County" : "Cumberland",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885428",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0614",
+        "AREA_CODE" : "856",
+        "PHONE" : "691-8600",
+        "ADDRESS" : "3322 COLLEGE DRIVE",
+        "ADDRESS2" : " ",
+        "CITY" : "VINELAND",
+        "STATE" : "NJ",
+        "ZIP" : "08360",
+        "ZIP4" : "6926",
+        "FIPS" : "34011",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "3260",
+        "Shape_Leng" : 9970.8845051200005,
+        "Shape_Area" : 4219141.0826000003,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 49
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.366686040206318,
+          40.505300340305872
+        ]
+      },
+      "properties" : {
+        "FID" : 50,
+        "OBJECTID" : 51,
+        "Name" : "Middlesex County College",
+        "Municipali" : "Edison Twp",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882166",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1205",
+        "AREA_CODE" : "732",
+        "PHONE" : "548-6000",
+        "ADDRESS" : "2600 WOODBRIDGE AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "EDISON",
+        "STATE" : "NJ",
+        "ZIP" : "08818",
+        "ZIP4" : "3604",
+        "FIPS" : "34023",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "11898",
+        "Shape_Leng" : 16470.0180344,
+        "Shape_Area" : 8512115.4851500001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 50
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.580652632190933,
+          40.857745968322483
+        ]
+      },
+      "properties" : {
+        "FID" : 51,
+        "OBJECTID" : 52,
+        "Name" : "County College of Morris",
+        "Municipali" : "Randolph Twp",
+        "County" : "Morris",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882201",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1432",
+        "AREA_CODE" : "973",
+        "PHONE" : "328-5000",
+        "ADDRESS" : "214 CENTER GROVE RD",
+        "ADDRESS2" : " ",
+        "CITY" : "RANDOLPH",
+        "STATE" : "NJ",
+        "ZIP" : "07869",
+        "ZIP4" : "2007",
+        "FIPS" : "34027",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "8180",
+        "Shape_Leng" : 15296.976086299999,
+        "Shape_Area" : 9429853.5385699999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 51
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.688943301308001,
+          40.611278237252002
+        ]
+      },
+      "properties" : {
+        "FID" : 52,
+        "OBJECTID" : 53,
+        "Name" : "Raritan Valley Community College",
+        "Municipali" : "Branchburg Twp",
+        "County" : "Somerset",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882175",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "1805",
+        "AREA_CODE" : "908",
+        "PHONE" : "526-1200",
+        "ADDRESS" : "STATE ROUTE 28 AND LAMINGTON ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "SOMERVILLE",
+        "STATE" : "NJ",
+        "ZIP" : "08876",
+        "ZIP4" : " ",
+        "FIPS" : "34035",
+        "DEGREE" : "AT LEAST 2, BUT LESS THAN 4 ACADEMIC YRS",
+        "ENROLLMENT" : "6251",
+        "Shape_Leng" : 21226.769078500001,
+        "Shape_Area" : 9956441.6018899996,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 52
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.471504549368831,
+          39.704152849157147
+        ]
+      },
+      "properties" : {
+        "FID" : 53,
+        "OBJECTID" : 54,
+        "Name" : "Salem Community College",
+        "Municipali" : "Carneys Point Twp",
+        "County" : "Salem",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882135",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1702",
+        "AREA_CODE" : "856",
+        "PHONE" : "299-2100",
+        "ADDRESS" : "460 HOLLYWOOD AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "CARNEYS POINT",
+        "STATE" : "NJ",
+        "ZIP" : "08069",
+        "ZIP4" : "2704",
+        "FIPS" : "34033",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "1251",
+        "Shape_Leng" : 6971.6657993600002,
+        "Shape_Area" : 818986.87403399998,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 53
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.758340718106965,
+          41.069023437590886
+        ]
+      },
+      "properties" : {
+        "FID" : 54,
+        "OBJECTID" : 55,
+        "Name" : "Sussex County Community College",
+        "Municipali" : "Hampton Twp; Hamilton Twp",
+        "County" : "Sussex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "885322",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "1915",
+        "AREA_CODE" : "973",
+        "PHONE" : "300-2100",
+        "ADDRESS" : "1 COLLEGE HILL ROAD",
+        "ADDRESS2" : "ADMINISTRATION BUILDING",
+        "CITY" : "NEWTON",
+        "STATE" : "NJ",
+        "ZIP" : "07860",
+        "ZIP4" : "1149",
+        "FIPS" : "34037",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "3461",
+        "Shape_Leng" : 11914.0288014,
+        "Shape_Area" : 7283996.5627499996,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 54
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.322318616756263,
+          40.666714466096472
+        ]
+      },
+      "properties" : {
+        "FID" : 55,
+        "OBJECTID" : 56,
+        "Name" : "Union County College",
+        "Municipali" : "Cranford Twp",
+        "County" : "Union",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882214",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "2003",
+        "AREA_CODE" : "908",
+        "PHONE" : "709-7000",
+        "ADDRESS" : "1033 SPRINGFIELD AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "CRANFORD",
+        "STATE" : "NJ",
+        "ZIP" : "07016",
+        "ZIP4" : "1528",
+        "FIPS" : "34039",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "10976",
+        "Shape_Leng" : 9683.6436165800005,
+        "Shape_Area" : 2086437.89353,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 55
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.017544139841718,
+          40.743508377963423
+        ]
+      },
+      "properties" : {
+        "FID" : 56,
+        "OBJECTID" : 57,
+        "Name" : "Warren County Community College - Washington",
+        "Municipali" : "Washington Twp; Franklin Twp",
+        "County" : "Warren",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "882250",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "2122",
+        "AREA_CODE" : "908",
+        "PHONE" : "835-9222",
+        "ADDRESS" : "475 STATE ROUTE 57 WEST",
+        "ADDRESS2" : " ",
+        "CITY" : "WASHINGTON",
+        "STATE" : "NJ",
+        "ZIP" : "07882",
+        "ZIP4" : "4343",
+        "FIPS" : "34041",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "1647",
+        "Shape_Leng" : 10037.012197,
+        "Shape_Area" : 4826122.4537899997,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 56
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.118887458357875,
+          39.946118754590387
+        ]
+      },
+      "properties" : {
+        "FID" : 57,
+        "OBJECTID" : 58,
+        "Name" : "Rowan - Camden Campus",
+        "Municipali" : "Camden City",
+        "County" : "Camden",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885177",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0408",
+        "AREA_CODE" : "856",
+        "PHONE" : "361-2900",
+        "ADDRESS" : "200 NORTH BROADWAY",
+        "ADDRESS2" : "COLLEGE HALL",
+        "CITY" : "CAMDEN",
+        "STATE" : "NJ",
+        "ZIP" : "08102",
+        "ZIP4" : " ",
+        "FIPS" : "34007",
+        "DEGREE" : " ",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 621.6558780602104,
+        "Shape_Area" : 22165.547231500001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 57
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -75.118638448405591,
+          39.710893599303951
+        ]
+      },
+      "properties" : {
+        "FID" : 58,
+        "OBJECTID" : 59,
+        "Name" : "Rowan - Glassboro Campus",
+        "Municipali" : "Glassboro",
+        "County" : "Gloucester",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885231",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0806",
+        "AREA_CODE" : "856",
+        "PHONE" : "256-4000",
+        "ADDRESS" : "201 MULLICA HILL RD",
+        "ADDRESS2" : " ",
+        "CITY" : "GLASSBORO",
+        "STATE" : "NJ",
+        "ZIP" : "08028",
+        "ZIP4" : "1700",
+        "FIPS" : "34015",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "9762",
+        "Shape_Leng" : 95312.076077599995,
+        "Shape_Area" : 24776916.460700002,
+        "DOCTORAL" : "Yes",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 58
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.196127903323728,
+          40.794757545012523
+        ]
+      },
+      "properties" : {
+        "FID" : 59,
+        "OBJECTID" : 60,
+        "Name" : "Bloomfield College",
+        "Municipali" : "Bloomfield Twp",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "1729714",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0702",
+        "AREA_CODE" : "973",
+        "PHONE" : "748-9000",
+        "ADDRESS" : "1 PARK PLACE",
+        "ADDRESS2" : " ",
+        "CITY" : "BLOOMFIELD",
+        "STATE" : "NJ",
+        "ZIP" : "07003",
+        "ZIP4" : "3513",
+        "FIPS" : "34013",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "2212",
+        "Shape_Leng" : 9375.4717724799993,
+        "Shape_Area" : 623247.15235300001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 59
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.272533347700914,
+          40.834039510707385
+        ]
+      },
+      "properties" : {
+        "FID" : 60,
+        "OBJECTID" : 61,
+        "Name" : "Caldwell College",
+        "Municipali" : "Caldwell Boro",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "2381010",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0703",
+        "AREA_CODE" : "973",
+        "PHONE" : "618-3000",
+        "ADDRESS" : "9 RYERSON AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "CALDWELL",
+        "STATE" : "NJ",
+        "ZIP" : "07006",
+        "ZIP4" : "6109",
+        "FIPS" : "34013",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "2242",
+        "Shape_Leng" : 8781.2583502300004,
+        "Shape_Area" : 2826833.2530100001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 60
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.83442255492389,
+          40.846825701031356
+        ]
+      },
+      "properties" : {
+        "FID" : 61,
+        "OBJECTID" : 62,
+        "Name" : "Centenary College",
+        "Municipali" : "Hackettstown Town",
+        "County" : "Warren",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885237",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "2108",
+        "AREA_CODE" : "908",
+        "PHONE" : "852-1400",
+        "ADDRESS" : "400 JEFFERSON ST",
+        "ADDRESS2" : " ",
+        "CITY" : "HACKETTSTOWN",
+        "STATE" : "NJ",
+        "ZIP" : "07840",
+        "ZIP4" : "2110",
+        "FIPS" : "34041",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "2460",
+        "Shape_Leng" : 7917.1930807899998,
+        "Shape_Area" : 1814604.7149,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 61
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.437281115456216,
+          40.781065871692697
+        ]
+      },
+      "properties" : {
+        "FID" : 62,
+        "OBJECTID" : 63,
+        "Name" : "College of Saint Elizabeth",
+        "Municipali" : "Florham Park Boro",
+        "County" : "Morris",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882193",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1411",
+        "AREA_CODE" : "973",
+        "PHONE" : "290-4000",
+        "ADDRESS" : "2 CONVENT RD",
+        "ADDRESS2" : " ",
+        "CITY" : "MORRISTOWN",
+        "STATE" : "NJ",
+        "ZIP" : "07960",
+        "ZIP4" : "6923",
+        "FIPS" : "34027",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "1858",
+        "Shape_Leng" : 12748.9401005,
+        "Shape_Area" : 6579229.24603,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 62
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.169406176945571,
+          40.918539340773386
+        ]
+      },
+      "properties" : {
+        "FID" : 63,
+        "OBJECTID" : 64,
+        "Name" : "Passaic County Community College",
+        "Municipali" : "Paterson City",
+        "County" : "Passaic",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COMMUNITY COLLEGES",
+        "GNIS" : "885343",
+        "NAICSCODE" : "611210",
+        "MUN_CODE" : "1608",
+        "AREA_CODE" : "973",
+        "PHONE" : "684-6800",
+        "ADDRESS" : "1 COLLEGE BOULEVARD",
+        "ADDRESS2" : " ",
+        "CITY" : "PATERSON",
+        "STATE" : "NJ",
+        "ZIP" : "07505",
+        "ZIP4" : "1102",
+        "FIPS" : "34031",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "7169",
+        "Shape_Leng" : 6608.3177724899997,
+        "Shape_Area" : 367279.06859099999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 63
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.095025650276227,
+          40.712497006295713
+        ]
+      },
+      "properties" : {
+        "FID" : 64,
+        "OBJECTID" : 65,
+        "Name" : "New Jersey City University",
+        "Municipali" : "Jersey City",
+        "County" : "Hudson",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885264",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0906",
+        "AREA_CODE" : "201",
+        "PHONE" : "200-2000",
+        "ADDRESS" : "2039 KENNEDY BOULEVARD",
+        "ADDRESS2" : " ",
+        "CITY" : "JERSEY CITY",
+        "STATE" : "NJ",
+        "ZIP" : "07305",
+        "ZIP4" : "1527",
+        "FIPS" : "34017",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "8464",
+        "Shape_Leng" : 14211.4959612,
+        "Shape_Area" : 1825981.3621199999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 64
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.112185056727057,
+          40.830608172764613
+        ]
+      },
+      "properties" : {
+        "FID" : 65,
+        "OBJECTID" : 66,
+        "Name" : "Felician University - Rutherford Campus",
+        "Municipali" : "Rutherford Boro",
+        "County" : "Bergen",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885383",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0256",
+        "AREA_CODE" : "201",
+        "PHONE" : "559-6000",
+        "ADDRESS" : "1 FELICIAN WAY",
+        "ADDRESS2" : " ",
+        "CITY" : "RUTHERFORD",
+        "STATE" : "NJ",
+        "ZIP" : "0707",
+        "ZIP4" : "1612",
+        "FIPS" : " ",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 5000.3356647600003,
+        "Shape_Area" : 501478.88155699999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 65
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.094641045148379,
+          40.86712831564639
+        ]
+      },
+      "properties" : {
+        "FID" : 66,
+        "OBJECTID" : 67,
+        "Name" : "Felician University - Lodi Campus",
+        "Municipali" : "Lodi Boro",
+        "County" : "Bergen",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "885284",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0231",
+        "AREA_CODE" : "201",
+        "PHONE" : "559-6000",
+        "ADDRESS" : "262 S MAIN ST",
+        "ADDRESS2" : " ",
+        "CITY" : "LODI",
+        "STATE" : "NJ",
+        "ZIP" : "07644",
+        "ZIP4" : "2117",
+        "FIPS" : "34003",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "1806",
+        "Shape_Leng" : 5618.6950269700001,
+        "Shape_Area" : 1112837.61579,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 66
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.226635293582504,
+          40.099538960525116
+        ]
+      },
+      "properties" : {
+        "FID" : 67,
+        "OBJECTID" : 68,
+        "Name" : "Georgian Court University",
+        "Municipali" : "Lakewood Twp",
+        "County" : "Ocean",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882076",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1515",
+        "AREA_CODE" : "732",
+        "PHONE" : "364-2200",
+        "ADDRESS" : "900 LAKEWOOD AVE",
+        "ADDRESS2" : " ",
+        "CITY" : "LAKEWOOD",
+        "STATE" : "NJ",
+        "ZIP" : "08701",
+        "ZIP4" : "2600",
+        "FIPS" : "34029",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "3153",
+        "Shape_Leng" : 16673.140446599999,
+        "Shape_Area" : 6774039.5219000001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 67
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.775723237982263,
+          40.222269097820799
+        ]
+      },
+      "properties" : {
+        "FID" : 68,
+        "OBJECTID" : 69,
+        "Name" : "Thomas Edison State College",
+        "Municipali" : "Trenton",
+        "County" : "Mercer",
+        "Parcel" : "Y/N",
+        "Comments" : "Parcel owner listed as Dept. of Treasury",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885421",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1111",
+        "AREA_CODE" : "609",
+        "PHONE" : "984-1100",
+        "ADDRESS" : "101 W STATE ST",
+        "ADDRESS2" : " ",
+        "CITY" : "TRENTON",
+        "STATE" : "NJ",
+        "ZIP" : "08608",
+        "ZIP4" : "1101",
+        "FIPS" : "34021",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : "11224",
+        "Shape_Leng" : 3237.1898603300001,
+        "Shape_Area" : 115512.21150600001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 68
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.600619002464526,
+          40.75710211539797
+        ]
+      },
+      "properties" : {
+        "FID" : 69,
+        "OBJECTID" : 70,
+        "Name" : "Assumption College for Sisters",
+        "Municipali" : "Mendham Boro",
+        "County" : "Morris",
+        "Parcel" : "Y",
+        "Comments" : "Religious only?",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "885296",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1418",
+        "AREA_CODE" : "973",
+        "PHONE" : "543-6528",
+        "ADDRESS" : "350 BERNARDSVILLE RD",
+        "ADDRESS2" : " ",
+        "CITY" : "MENDHAM",
+        "STATE" : "NJ",
+        "ZIP" : "07945",
+        "ZIP4" : "2923",
+        "FIPS" : "34027",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "41",
+        "Shape_Leng" : 8508.2550380899993,
+        "Shape_Area" : 4773185.1589799998,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 69
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.221505442710125,
+          40.09586058668215
+        ]
+      },
+      "properties" : {
+        "FID" : 70,
+        "OBJECTID" : 71,
+        "Name" : "Beth Medrash Gouha",
+        "Municipali" : "Lakewood twp",
+        "County" : "Ocean",
+        "Parcel" : "Y",
+        "Comments" : "Religous College",
+        "NAICSDESCR" : "THEOLOGICAL SEMINARIES OFFERING BACCALAUREAT OR GRADUATE DEGREES",
+        "GNIS" : "882076",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1515",
+        "AREA_CODE" : "732",
+        "PHONE" : "367-1060",
+        "ADDRESS" : "617 6TH ST",
+        "ADDRESS2" : " ",
+        "CITY" : "LAKEWOOD",
+        "STATE" : "NJ",
+        "ZIP" : "08701",
+        "ZIP4" : "2709",
+        "FIPS" : "34029",
+        "DEGREE" : "POST-MASTER'S CERTIFICATE",
+        "ENROLLMENT" : "4560",
+        "Shape_Leng" : 1647.6223783999999,
+        "Shape_Area" : 155657.70838500001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 70
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.439106381499968,
+          40.465263728214495
+        ]
+      },
+      "properties" : {
+        "FID" : 71,
+        "OBJECTID" : 72,
+        "Name" : "DeVry University",
+        "Municipali" : "North Brunswick Twp",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : "Also location for Ross Univ. & Keller Graduate School of Management",
+        "NAICSDESCR" : "UNIVERSITIES",
+        "GNIS" : "882164",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1214",
+        "AREA_CODE" : "732",
+        "PHONE" : "435-4880",
+        "ADDRESS" : "630 UNITED STATES HIGHWAY 1",
+        "ADDRESS2" : " ",
+        "CITY" : "NORTH BRUNSWICK",
+        "STATE" : "NJ",
+        "ZIP" : "08902",
+        "ZIP4" : " ",
+        "FIPS" : "34023",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "1504",
+        "Shape_Leng" : 3364.7265744000001,
+        "Shape_Area" : 653276.75174900005,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 71
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.448267340664941,
+          40.502007644954027
+        ]
+      },
+      "properties" : {
+        "FID" : 72,
+        "OBJECTID" : 73,
+        "Name" : "New Brunswick Theological Seminary",
+        "Municipali" : "New Brunswick City",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "THEOLOGICAL SEMINARIES OFFERING BACCALAUREAT OR GRADUATE DEGREES",
+        "GNIS" : "885318",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1213",
+        "AREA_CODE" : "732",
+        "PHONE" : "247-5241",
+        "ADDRESS" : "17 SEMINARY PL",
+        "ADDRESS2" : " ",
+        "CITY" : "NEW BRUNSWICK",
+        "STATE" : "NJ",
+        "ZIP" : "08901",
+        "ZIP4" : "1107",
+        "FIPS" : "34023",
+        "DEGREE" : "DOCTOR'S DEGREE",
+        "ENROLLMENT" : "203",
+        "Shape_Leng" : 2863.2477939400001,
+        "Shape_Area" : 332232.40923300001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 72
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.166437378959401,
+          40.008155501333384
+        ]
+      },
+      "properties" : {
+        "FID" : 73,
+        "OBJECTID" : 74,
+        "Name" : "Ocean County College",
+        "Municipali" : "Toms River Twp",
+        "County" : "Ocean",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "COLLEGES (EXCEPT JUNIOR COLLEGES)",
+        "GNIS" : "882074",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1508",
+        "AREA_CODE" : "732",
+        "PHONE" : "255-0326",
+        "ADDRESS" : "1 COLLEGE DRIVE",
+        "ADDRESS2" : " ",
+        "CITY" : "TOMS RIVER",
+        "STATE" : "NJ",
+        "ZIP" : "08753",
+        "ZIP4" : " ",
+        "FIPS" : "34029",
+        "DEGREE" : "ASSOCIATE'S DEGREE",
+        "ENROLLMENT" : "8449",
+        "Shape_Leng" : 20270.1952442,
+        "Shape_Area" : 13641127.374700001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "Yes",
+        "ORIG_FID" : 73
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.39785594580529,
+          40.500955608948175
+        ]
+      },
+      "properties" : {
+        "FID" : 74,
+        "OBJECTID" : 75,
+        "Name" : "Rabbi Jacob Joseph School",
+        "Municipali" : "Edison Twp",
+        "County" : "Middlesex",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "THEOLOGICAL SEMINARIES OFFERING BACCALAUREAT OR GRADUATE DEGREES",
+        "GNIS" : "882166",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1205",
+        "AREA_CODE" : "732",
+        "PHONE" : "985-6533",
+        "ADDRESS" : "1 PLAINFIELD AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "EDISON",
+        "STATE" : "NJ",
+        "ZIP" : "08817",
+        "ZIP4" : "4476",
+        "FIPS" : "34023",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "38",
+        "Shape_Leng" : 1082.3673270500001,
+        "Shape_Area" : 61110.250104799998,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 74
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.500647185527313,
+          40.8110794267565
+        ]
+      },
+      "properties" : {
+        "FID" : 75,
+        "OBJECTID" : 76,
+        "Name" : "Rabbinical College of America",
+        "Municipali" : "Morris Twp",
+        "County" : "Morris",
+        "Parcel" : "Y",
+        "Comments" : " ",
+        "NAICSDESCR" : "THEOLOGICAL SEMINARIES OFFERING BACCALAUREAT OR GRADUATE DEGREES",
+        "GNIS" : "882193",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1422",
+        "AREA_CODE" : "973",
+        "PHONE" : "267-9404",
+        "ADDRESS" : "226 SUSSEX AVENUE",
+        "ADDRESS2" : " ",
+        "CITY" : "MORRISTOWN",
+        "STATE" : "NJ",
+        "ZIP" : "07960",
+        "ZIP4" : "3632",
+        "FIPS" : "34027",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "294",
+        "Shape_Leng" : 13095.657778700001,
+        "Shape_Area" : 3541812.4181900001,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 75
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.166290484859161,
+          40.736675902530649
+        ]
+      },
+      "properties" : {
+        "FID" : 76,
+        "OBJECTID" : 77,
+        "Name" : "Seton Hall University Law School - Newark",
+        "Municipali" : "Newark City",
+        "County" : "Essex",
+        "Parcel" : "Y",
+        "Comments" : "Mapped parcel where point from nj_colleges_univ file located it",
+        "NAICSDESCR" : "LAW SCHOOLS",
+        "GNIS" : "885317",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "0714",
+        "AREA_CODE" : "973",
+        "PHONE" : "642-8747",
+        "ADDRESS" : "ONE NEWARK CENTER",
+        "ADDRESS2" : " ",
+        "CITY" : "NEWARK",
+        "STATE" : "NJ",
+        "ZIP" : "07102",
+        "ZIP4" : "5235",
+        "FIPS" : "34013",
+        "DEGREE" : "MASTER'S DEGREE",
+        "ENROLLMENT" : " ",
+        "Shape_Leng" : 1226.9223998699999,
+        "Shape_Area" : 82680.578312500002,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 76
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -74.250317199712086,
+          40.217768711199874
+        ]
+      },
+      "properties" : {
+        "FID" : 77,
+        "OBJECTID" : 78,
+        "Name" : "Talmudical Academy - New Jersey",
+        "Municipali" : "Howell Twp",
+        "County" : "Monmouth",
+        "Parcel" : "Y/N",
+        "Comments" : "Mapped parcel where point from nj_colleges_univ file located it",
+        "NAICSDESCR" : "ACADEMIES, COLLEGE OR UNIVERSITY",
+        "GNIS" : "882113",
+        "NAICSCODE" : "611310",
+        "MUN_CODE" : "1321",
+        "AREA_CODE" : "732",
+        "PHONE" : "431-1600",
+        "ADDRESS" : "868 ADELPHIA FARMINGDALE ROAD",
+        "ADDRESS2" : " ",
+        "CITY" : "FREEHOLD",
+        "STATE" : "NJ",
+        "ZIP" : "07728",
+        "ZIP4" : " ",
+        "FIPS" : "34025",
+        "DEGREE" : "BACHELOR'S DEGREE",
+        "ENROLLMENT" : "52",
+        "Shape_Leng" : 1881.6942029300001,
+        "Shape_Area" : 187703.07034999999,
+        "DOCTORAL" : "No",
+        "PUBLIC_RES" : "No",
+        "ORIG_FID" : 77
+      }
+    }
+  ]
+
