@@ -306,9 +306,6 @@
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TW-hK-jws" userLabel="CollegeName">
                                                             <rect key="frame" x="0.0" y="0.0" width="250" height="20.333333333333332"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="250" id="6nd-iN-MuG"/>
-                                                            </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -320,6 +317,9 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="250" id="GxM-zt-PKy"/>
+                                                    </constraints>
                                                 </stackView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.right.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8Du-9U-byM" userLabel="Go">
                                                     <rect key="frame" x="340" y="34.666666666666664" width="53" height="19"/>
@@ -358,7 +358,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8sE-kO-jG7"/>
+        <segue reference="qLE-Ur-4ZU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.right.circle.fill" catalog="system" width="128" height="123"/>
