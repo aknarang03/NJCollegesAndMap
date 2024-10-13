@@ -222,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAF-ZA-7As" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="959.5419847328244" y="210.56338028169014"/>
+            <point key="canvasLocation" x="1555" y="-413"/>
         </scene>
         <!--Colleges Map-->
         <scene sceneID="bwL-iJ-gM3">
@@ -249,6 +249,7 @@
                     <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="i5j-ts-mwM"/>
                     <connections>
                         <outlet property="map" destination="iyb-vG-RBc" id="dvR-9m-FXI"/>
+                        <segue destination="pti-1R-a5e" kind="show" identifier="showDetailFromMap" id="8sE-kO-jG7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7F-ic-WYH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -356,6 +357,9 @@
             <point key="canvasLocation" x="55.725190839694655" y="210.56338028169014"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8sE-kO-jG7"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.right.circle.fill" catalog="system" width="128" height="123"/>
         <image name="graduationcap.fill" catalog="system" width="128" height="108"/>

@@ -16,7 +16,7 @@ class CollegesMapViewController: UIViewController, MKMapViewDelegate, CLLocation
     var collegeAnnotations: [CollegeAnnotation] = []
     
     @IBOutlet weak var map: MKMapView!
-        
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -68,28 +68,46 @@ class CollegesMapViewController: UIViewController, MKMapViewDelegate, CLLocation
     
     // annotation view
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-                
+        
         guard !(annotation is MKUserLocation) else {
             return nil
         }
-                
+        
         let collegeAnnotation = annotation as? CollegeAnnotation
         
         let identifier = "CollegeAnnotation"
         let annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-                    
+        
         annotationView.image = UIImage(named: collegeAnnotation?.logoString! ?? "default_uni")
         annotationView.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
-                
+        
         annotationView.canShowCallout = true
         annotationView.calloutOffset = CGPoint(x: -5.0, y: 5.0)
-                
-        let imageView = UIImageView (frame: CGRect(origin: CGPoint.zero, size: CGSize(width: 60.0, height: 60.0)))
-        imageView.image = UIImage(named: collegeAnnotation?.logoString! ?? "default_uni")
+        
+        //        let imageView = UIImageView (frame: CGRect(origin: CGPoint.zero, size: CGSize(width: 60.0, height: 60.0)))
+        //        imageView.image = UIImage(named: collegeAnnotation?.logoString! ?? "default_uni")
+        
+        let detailButton = UIButton(type: .detailDisclosure)
+        annotationView.rightCalloutAccessoryView = detailButton
         
         return annotationView
     }
-
+    
+    func mapView(_ mapView: MKMapView, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        
+        if control == annotationView.rightCalloutAccessoryView {
+            let collegeAnnotation = annotationView.annotation as! CollegeAnnotation
+            performSegue(withIdentifier: "showDetailFromMap", sender: collegeAnnotation)
+        }
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetailFromMap" {
+            if let destinationViewController = segue.destination as? CollegeDetailViewController, let collegeAnnotation = sender as? CollegeAnnotation {
+                destinationViewController.showCollegeId = collegeAnnotation.id
+            }
+        }
+    }
+    
 }
-
-
