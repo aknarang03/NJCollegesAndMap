@@ -37,6 +37,8 @@ class CollegeDetailViewController: UIViewController {
             
             if (selectedCollege != nil) {
                 
+                setViewpoint()
+                
                 name.text = selectedCollege!.name
                 addressLine1.text = "\(selectedCollege!.address)"
                 addressLine2.text = "\(selectedCollege!.city), \(selectedCollege!.county), NJ"
@@ -50,6 +52,12 @@ class CollegeDetailViewController: UIViewController {
             
         }
         
+    }
+    
+    func setViewpoint() {
+        let coordinate = CLLocationCoordinate2D(latitude: selectedCollege!.coordinates[1], longitude: selectedCollege!.coordinates[0])
+        let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        map.setRegion(region, animated: true)
     }
 
 }
