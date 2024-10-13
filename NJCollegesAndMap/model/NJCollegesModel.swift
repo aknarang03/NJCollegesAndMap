@@ -118,4 +118,18 @@ class NJCollegesModel {
         
     }
     
+    func formatAddress(input: String) -> String {
+
+        let words = input.split(separator: " ")
+        var result = [String]()
+
+        for word in words {
+            let capitalizedWord = word.prefix(1).uppercased() + word.dropFirst().lowercased()
+            result.append(capitalizedWord)
+        }
+
+        return result.joined(separator: " ")
+        
+    }
+    
 }

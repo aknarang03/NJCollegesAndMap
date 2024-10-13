@@ -42,9 +42,10 @@ class CollegeDetailViewController: UIViewController {
                 
                 setViewpoint()
                 
+                
                 name.text = selectedCollege!.name
-                addressLine1.text = "\(selectedCollege!.address) \(selectedCollege!.address2)"
-                addressLine2.text = "\(selectedCollege!.city), \(selectedCollege!.county), NJ"
+                addressLine1.text = collegesModel.formatAddress(input: "\(selectedCollege!.address) \(selectedCollege!.address2)")
+                addressLine2.text = collegesModel.formatAddress(input: "\(selectedCollege!.city), \(selectedCollege!.county) County") + ", NJ"
                 addressLine3.text = "\(selectedCollege!.zip)"
                 
                 if (selectedCollege!.phone == "" || selectedCollege!.phone == " " ) {
