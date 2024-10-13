@@ -130,20 +130,93 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="College Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IlN-oO-5IF">
-                                <rect key="frame" x="39" y="101" width="238" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="wYY-8y-hbo">
+                                <rect key="frame" x="0.0" y="75" width="393" height="692"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiY-Wn-ZYT" userLabel="Name Text">
+                                        <rect key="frame" x="26.666666666666657" y="0.0" width="340" height="27.666666666666668"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="340" id="2i2-N8-CWd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-dK-NuU" userLabel="Logo">
+                                        <rect key="frame" x="127.66666666666669" y="72.666666666666657" width="138" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="UUg-u0-Qtw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1ln-R8-KtU" userLabel="Address View">
+                                        <rect key="frame" x="46.666666666666657" y="217.66666666666669" width="300" height="85"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Street Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsl-cj-ACG" userLabel="Address Line 1">
+                                                <rect key="frame" x="0.0" y="0.0" width="125.66666666666667" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City, County, NJ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7A-RR-fJM" userLabel="Address Line 2">
+                                                <rect key="frame" x="0.0" y="31" width="134.66666666666666" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZIP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yy4-pP-EY1" userLabel="Address Line 3">
+                                                <rect key="frame" x="0.0" y="62" width="28.333333333333332" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="NMN-49-pte"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area Code + Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc6-HF-HXr" userLabel="Phone Text">
+                                        <rect key="frame" x="46.666666666666657" y="347.66666666666669" width="300" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="rVI-nQ-KL1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="WdL-SQ-IeI" userLabel="Location View">
+                                        <rect key="frame" x="59.666666666666657" y="415.66666666666674" width="274" height="276.33333333333326"/>
+                                        <subviews>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efE-il-jsk" userLabel="CollegeMap">
+                                                <rect key="frame" x="0.0" y="0.0" width="274" height="276.33333333333331"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="274" id="B5j-fQ-C3B"/>
+                                                </constraints>
+                                                <standardMapConfiguration key="preferredConfiguration"/>
+                                            </mapView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KPG-Vq-WLf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wYY-8y-hbo" firstAttribute="leading" secondItem="KPG-Vq-WLf" secondAttribute="leading" id="07w-zz-ULa"/>
+                            <constraint firstItem="wYY-8y-hbo" firstAttribute="centerX" secondItem="KPG-Vq-WLf" secondAttribute="centerX" id="1lL-Xw-Z8m"/>
+                            <constraint firstItem="KPG-Vq-WLf" firstAttribute="trailing" secondItem="wYY-8y-hbo" secondAttribute="trailing" id="8S4-JT-avB"/>
+                            <constraint firstItem="wYY-8y-hbo" firstAttribute="top" secondItem="KPG-Vq-WLf" secondAttribute="top" constant="75" id="Xyj-5o-Oi4"/>
+                            <constraint firstItem="wYY-8y-hbo" firstAttribute="centerY" secondItem="KPG-Vq-WLf" secondAttribute="centerY" id="ZPC-Pb-oUZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dvJ-w8-HkL"/>
                     <connections>
-                        <outlet property="collegeName" destination="IlN-oO-5IF" id="6UY-kR-Uxv"/>
+                        <outlet property="addressLine1" destination="Gsl-cj-ACG" id="RE1-SK-wp5"/>
+                        <outlet property="addressLine2" destination="M7A-RR-fJM" id="yVG-bH-TmX"/>
+                        <outlet property="addressLine3" destination="Yy4-pP-EY1" id="qbi-HY-YoV"/>
+                        <outlet property="logo" destination="jiH-dK-NuU" id="sTb-TQ-RGc"/>
+                        <outlet property="map" destination="efE-il-jsk" id="dq6-V1-bO4"/>
+                        <outlet property="name" destination="MiY-Wn-ZYT" id="cLO-DL-wdc"/>
+                        <outlet property="phone" destination="xc6-HF-HXr" id="41Q-VA-U6D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAF-ZA-7As" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

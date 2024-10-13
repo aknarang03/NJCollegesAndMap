@@ -12,7 +12,11 @@ struct College: Codable {
     var id: Int
     var name: String
     var city: String
+    var address: String
     var county: String
+    var zip: String
+    var areaCode: String
+    var phone: String
 }
 
 class NJCollegesModel {
@@ -59,7 +63,11 @@ class NJCollegesModel {
                         id: feature.id,
                         name: feature.properties.name,
                         city: feature.properties.city,
-                        county: feature.properties.county
+                        address: feature.properties.address,
+                        county: feature.properties.county,
+                        zip: feature.properties.zip,
+                        areaCode: feature.properties.areaCode,
+                        phone: feature.properties.phone
                     )
                     
                     self.njColleges.append(currentCollege) // add to list

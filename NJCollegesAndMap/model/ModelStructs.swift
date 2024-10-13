@@ -21,12 +21,20 @@ struct Properties: Codable {
     
     let name: String
     let city: String
+    let address: String
     let county: String
+    let zip: String
+    let areaCode: String
+    let phone: String
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"
-        case city = "Municipali"
+        case city = "CITY"
+        case address = "ADDRESS"
         case county = "County"
+        case zip = "ZIP"
+        case areaCode = "AREA_CODE"
+        case phone = "PHONE"
     }
     
 }
