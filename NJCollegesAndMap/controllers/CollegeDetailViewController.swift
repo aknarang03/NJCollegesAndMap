@@ -31,6 +31,9 @@ class CollegeDetailViewController: UIViewController {
         
         super.viewWillAppear(animated)
         
+        map.layer.cornerRadius = 10
+        map.clipsToBounds = true
+        
         if let collegeId = showCollegeId {
             
             selectedCollege = collegesModel.getCollege(findId: collegeId)
@@ -56,7 +59,7 @@ class CollegeDetailViewController: UIViewController {
     
     func setViewpoint() {
         let coordinate = CLLocationCoordinate2D(latitude: selectedCollege!.coordinates[1], longitude: selectedCollege!.coordinates[0])
-        let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 1000, longitudinalMeters: 1000)
         map.setRegion(region, animated: true)
     }
 
