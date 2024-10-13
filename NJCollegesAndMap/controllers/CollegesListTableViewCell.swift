@@ -10,6 +10,7 @@ import UIKit
 class CollegesListTableViewCell: UITableViewCell {
 
     @IBOutlet weak var collegeName: UILabel!
+    @IBOutlet weak var collegeCity: UILabel!
     @IBOutlet weak var collegeImage: UIImageView!
     @IBOutlet weak var go: UIImageView!
     

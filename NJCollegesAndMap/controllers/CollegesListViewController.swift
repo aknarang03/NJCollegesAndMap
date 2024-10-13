@@ -40,6 +40,7 @@ class CollegesListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "College Cell", for: indexPath) as! CollegesListTableViewCell
         
         cell.collegeName.text = colleges[indexPath.row].name
+        cell.collegeCity.text = collegesModel.formatAddress(input: colleges[indexPath.row].city) + ", NJ"
 
         let assetName = collegesModel.getImage(collegeName: colleges[indexPath.row].name)
         cell.collegeImage.image = UIImage(named:assetName)
