@@ -22,6 +22,7 @@ struct Properties: Codable {
     let name: String
     let city: String
     let address: String
+    let address2: String
     let county: String
     let zip: String
     let areaCode: String
@@ -31,6 +32,7 @@ struct Properties: Codable {
         case name = "Name"
         case city = "CITY"
         case address = "ADDRESS"
+        case address2 = "ADDRESS2"
         case county = "County"
         case zip = "ZIP"
         case areaCode = "AREA_CODE"

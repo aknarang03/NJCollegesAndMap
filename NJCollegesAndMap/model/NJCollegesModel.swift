@@ -13,6 +13,7 @@ struct College: Codable {
     var name: String
     var city: String
     var address: String
+    var address2: String
     var county: String
     var zip: String
     var areaCode: String
@@ -64,6 +65,7 @@ class NJCollegesModel {
                         name: feature.properties.name,
                         city: feature.properties.city,
                         address: feature.properties.address,
+                        address2: feature.properties.address2,
                         county: feature.properties.county,
                         zip: feature.properties.zip,
                         areaCode: feature.properties.areaCode,

@@ -43,10 +43,15 @@ class CollegeDetailViewController: UIViewController {
                 setViewpoint()
                 
                 name.text = selectedCollege!.name
-                addressLine1.text = "\(selectedCollege!.address)"
+                addressLine1.text = "\(selectedCollege!.address) \(selectedCollege!.address2)"
                 addressLine2.text = "\(selectedCollege!.city), \(selectedCollege!.county), NJ"
                 addressLine3.text = "\(selectedCollege!.zip)"
-                phone.text = "\(selectedCollege!.areaCode)-\(selectedCollege!.phone)"
+                
+                if (selectedCollege!.phone == "" || selectedCollege!.phone == " " ) {
+                    phone.text = "No phone number provided"
+                } else {
+                    phone.text = "Phone: \(selectedCollege!.areaCode)-\(selectedCollege!.phone)"
+                }
                 
                 let assetName = collegesModel.getImage(collegeName: selectedCollege!.name)
                 logo.image = UIImage(named:assetName)
