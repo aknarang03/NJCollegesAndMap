@@ -8,16 +8,34 @@
 import UIKit
 import MapKit
 
-class CollegesMapViewController: UIViewController {
+class CollegesMapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     let collegesModel = NJCollegesModel.sharedInstance
+    let locationManager = CLLocationManager()
     
     @IBOutlet weak var map: MKMapView!
         
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
+        map.delegate = self
+        
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+        
+        map.showsUserLocation = true
+        
         zoomToNewJersey()
         addColleges()
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        locationManager.stopUpdatingLocation()
     }
     
     func zoomToNewJersey() { // NJ: 40.0583° N, 74.4057° W
@@ -35,6 +53,10 @@ class CollegesMapViewController: UIViewController {
             map.addAnnotation(annotation)
         }
         
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print ("Error: \(error)")
     }
 
 }
