@@ -246,6 +246,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="i5j-ts-mwM"/>
+                    <connections>
+                        <outlet property="map" destination="iyb-vG-RBc" id="dvR-9m-FXI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7F-ic-WYH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

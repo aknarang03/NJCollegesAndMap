@@ -6,24 +6,23 @@
 //
 
 import UIKit
+import MapKit
 
 class CollegesMapViewController: UIViewController {
-
+    
+    @IBOutlet weak var map: MKMapView!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        zoomToNewJersey()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func zoomToNewJersey() { // NJ: 40.0583° N, 74.4057° W
+        let njCenter = CLLocationCoordinate2D(latitude: 40.0583, longitude: -74.4057)
+        let region = MKCoordinateRegion(center: njCenter, latitudinalMeters: 250000, longitudinalMeters: 250000)
+        map.setRegion(region, animated: true)
     }
-    */
 
 }
+
+
