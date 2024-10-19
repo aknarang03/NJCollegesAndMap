@@ -22,7 +22,7 @@ struct College: Codable {
 
 class NJCollegesModel {
     
-    let collegeNames : [String] = ["rutgers","monmouth","stevens","drew","njinstitute","newjerseycityuniversity","talmudical","berkeley","rowancollege","rowan","princeton","montclair","kean","fairleigh","phoenix","atlanticcape","brookdale","setonhall","rabbinical","oceancountycollege","thomasedison","georgiancourt","felician","passaic","centenary","caldwell","bloomfield","warren","sussex","salem","raritanvalley","countycollegeofmorris","middlesex","hudson","mercer","essex","burlington","rider","ramapo","thecollegeofnewjersey","saintpeter","rabbijacob","newbrunswicktheological","devry","bethmedrash","assumption","saintelizabeth","union","cumberland","camden","bergen","williampatterson","therichardstocktoncollegeofnewjersey","pillar"]
+    let logoAssetNames : [String] = ["rutgers","monmouth","stevens","drew","njinstitute","newjerseycityuniversity","talmudical","berkeley","rowancollege","rowan","princeton","montclair","kean","fairleigh","phoenix","atlanticcape","brookdale","setonhall","rabbinical","oceancountycollege","thomasedison","georgiancourt","felician","passaic","centenary","caldwell","bloomfield","warren","sussex","salem","raritanvalley","countycollegeofmorris","middlesex","hudson","mercer","essex","burlington","rider","ramapo","thecollegeofnewjersey","saintpeter","rabbijacob","newbrunswicktheological","devry","bethmedrash","assumption","saintelizabeth","union","cumberland","camden","bergen","williampatterson","therichardstocktoncollegeofnewjersey","pillar"]
     
     var njColleges: [College] = []
     static let sharedInstance = NJCollegesModel()
@@ -91,7 +91,7 @@ class NJCollegesModel {
         var asset: String
         let searchString = collegeName.lowercased().replacingOccurrences(of: " ", with: "")
 
-        for assetName in collegeNames {
+        for assetName in logoAssetNames {
             
             if (searchString.contains(assetName)) {
                 // found

@@ -83,10 +83,7 @@ class CollegesMapViewController: UIViewController, MKMapViewDelegate, CLLocation
         
         annotationView.canShowCallout = true
         annotationView.calloutOffset = CGPoint(x: -5.0, y: 5.0)
-        
-        //        let imageView = UIImageView (frame: CGRect(origin: CGPoint.zero, size: CGSize(width: 60.0, height: 60.0)))
-        //        imageView.image = UIImage(named: collegeAnnotation?.logoString! ?? "default_uni")
-        
+
         let detailButton = UIButton(type: .detailDisclosure)
         annotationView.rightCalloutAccessoryView = detailButton
         
