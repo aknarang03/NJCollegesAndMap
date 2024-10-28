@@ -26,9 +26,20 @@ class NJCollegesModel {
     
     var njColleges: [College] = []
     static let sharedInstance = NJCollegesModel()
+    
+    let collegesURL:String = "https://ios-api.csse-projects.monmouth.edu/data?file=NJColleges2"
         
     private init () {
-        readCollegesData()
+        //readCollegesData()
+        print("in init")
+        Task {
+            let result = try await fetchCollegesAsync()
+            if result {
+                print (njColleges.count)
+            } else {
+                print ("No data from API")
+            }
+        }
     }
     
     func getColleges() -> [College] {
@@ -41,6 +52,31 @@ class NJCollegesModel {
         } else {
             return nil
         }
+    }
+    
+    func fetchCollegesAsync() async throws -> Bool {
+        
+        guard let url = URL(string: collegesURL) else {
+            throw CollegesFetchError.invalidURL
+        }
+        
+        do {
+            
+            let (data, urlResponse) = try await URLSession.shared.data(from: url)
+    
+            let code = (urlResponse as? HTTPURLResponse)?.statusCode
+            guard code == 200 else { // 200 = OK
+                throw CollegesFetchError.missingData
+            }
+            
+            njColleges = try JSONDecoder().decode([College].self, from: data)
+            return true
+            
+        } catch { // missing data
+            print("Error fetching colleges: \(error)")
+            return false
+        }
+        
     }
     
     func readCollegesData() {
@@ -132,4 +168,9 @@ class NJCollegesModel {
         
     }
     
+}
+
+enum CollegesFetchError: Error {
+    case invalidURL
+    case missingData
 }
