@@ -27,7 +27,7 @@ class NJCollegesModel {
     var njColleges: [College] = []
     static let sharedInstance = NJCollegesModel()
     
-    let collegesURL:String = "https://ios-api.csse-projects.monmouth.edu/data?file=NJColleges2"
+    let collegesURL:String = "https://ios-api.csse-projects.monmouth.edu/data?file=NJColleges"
         
     private init () {
         //readCollegesData()
@@ -35,7 +35,7 @@ class NJCollegesModel {
         Task {
             let result = try await fetchCollegesAsync()
             if result {
-                print (njColleges.count)
+                print ("data from api", njColleges.count)
             } else {
                 print ("No data from API")
             }
@@ -62,14 +62,38 @@ class NJCollegesModel {
         
         do {
             
-            let (data, urlResponse) = try await URLSession.shared.data(from: url)
+            let (jsonData, urlResponse) = try await URLSession.shared.data(from: url)
     
             let code = (urlResponse as? HTTPURLResponse)?.statusCode
             guard code == 200 else { // 200 = OK
                 throw CollegesFetchError.missingData
             }
+                    
+            let features = try! JSONDecoder().decode([Feature].self, from: jsonData)
             
-            njColleges = try JSONDecoder().decode([College].self, from: data)
+            for feature in features {
+                
+                // create college from featue
+                
+                let currentCollege = College(
+                    coordinates: feature.geometry.coordinates,
+                    id: feature.id,
+                    name: feature.properties.name,
+                    city: feature.properties.city,
+                    address: feature.properties.address,
+                    address2: feature.properties.address2,
+                    county: feature.properties.county,
+                    zip: feature.properties.zip,
+                    areaCode: feature.properties.areaCode,
+                    phone: feature.properties.phone
+                )
+                
+                self.njColleges.append(currentCollege) // add to list
+                
+            }
+            print(njColleges.count)
+            
+            //njColleges = try JSONDecoder().decode([College].self, from: data)
             return true
             
         } catch { // missing data
